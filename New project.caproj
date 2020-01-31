@@ -115,6 +115,8 @@
         <layout>Layout Gaby.xml</layout>
         <layout>Layout Louis.xml</layout>
         <layout>Layout Manon.xml</layout>
+        <layout>Layout Niveau 1.xml</layout>
+        <layout>Layout Niveau 2.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Event sheet David.xml</event-sheet>
@@ -122,6 +124,8 @@
         <event-sheet>Event sheet Gaby.xml</event-sheet>
         <event-sheet>Event sheet Louis.xml</event-sheet>
         <event-sheet>Event sheet Manon.xml</event-sheet>
+        <event-sheet>Event sheet Niveau 1.xml</event-sheet>
+        <event-sheet>Event sheet Niveau 2.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="3" />

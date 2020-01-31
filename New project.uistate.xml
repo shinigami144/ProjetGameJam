@@ -14,7 +14,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="2">Layout Guillaume</layout>
         <layout order="3">Layout Gaby</layout>
         <layout order="4">Layout Louis</layout>
-        <layout active="1" order="5">Layout Manon</layout>
+        <layout order="5">Layout Manon</layout>
+        <layout order="6">Layout Niveau 1</layout>
+        <layout active="1" order="7">Layout Niveau 2</layout>
         <event-sheet order="1">Event sheet David</event-sheet>
     </open-tabs>
     <properties>
