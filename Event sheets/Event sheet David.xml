@@ -8,8 +8,8 @@
                 <condition id="-2" name="On start of layout" sid="592902240506799" type="System" />
             </conditions>
             <actions>
-                <action behavior="Pin" disabled="1" id="0" name="Pin to object" sid="365432779989791" type="Sprite2">
-                    <param id="0" name="Pin to">Sprite</param>
+                <action behavior="Pin" disabled="1" id="0" name="Pin to object" sid="365432779989791" type="Player1">
+                    <param id="0" name="Pin to">Player2</param>
                     <param id="1" name="Mode">3</param>
                 </action>
             </actions>
@@ -19,23 +19,23 @@
                 <condition id="-2" name="On start of layout" sid="433933156413262" type="System" />
             </conditions>
             <actions>
-                <action behavior="Pin" id="0" name="Pin to object" sid="254410296733455" type="Sprite">
-                    <param id="0" name="Pin to">Sprite2</param>
+                <action behavior="Pin" id="0" name="Pin to object" sid="254410296733455" type="Player2">
+                    <param id="0" name="Pin to">Player1</param>
                     <param id="1" name="Mode">3</param>
                 </action>
             </actions>
         </event-block>
         <event-block sid="317641756619243">
             <conditions>
-                <condition id="1" inverted="1" name="Is overlapping another object" sid="746679181483864" type="Sprite">
-                    <param id="0" name="Object">Sprite3</param>
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="746679181483864" type="Player2">
+                    <param id="0" name="Object">Plateforme</param>
                 </condition>
                 <condition id="2" name="Key is down" sid="636784291383345" type="Keyboard">
                     <param id="0" name="Key">32</param>
                 </condition>
             </conditions>
             <actions>
-                <action behavior="Physics" id="0" name="Apply force" sid="451473719024078" type="Sprite">
+                <action behavior="Physics" id="0" name="Apply force" sid="451473719024078" type="Player2">
                     <param id="0" name="Force X">2000</param>
                     <param id="1" name="Force Y">2000</param>
                     <param id="2" name="Image point">0</param>
@@ -47,8 +47,28 @@
                 <condition id="-2" name="On start of layout" sid="856314775767918" type="System" />
             </conditions>
             <actions>
-                <action behavior="Physics" id="12" name="Set world gravity" sid="570403196148425" type="Sprite">
+                <action behavior="Physics" id="12" name="Set world gravity" sid="570403196148425" type="Player2">
                     <param id="0" name="Gravity">1500</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="604737817396951">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="329523450840759" type="System">
+                    <param id="0" name="Interval (seconds)">0.1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-5" name="Set width" sid="615358424690258" type="Lien">
+                    <param id="0" name="Width">distance(Player1.X,Player1.Y,Player2.X,Player2.Y)</param>
+                </action>
+                <action id="-3" name="Set position" sid="373374211775847" type="Lien">
+                    <param id="0" name="X">Player1.X</param>
+                    <param id="1" name="Y">Player1.Y</param>
+                </action>
+                <action id="-22" name="Set angle toward position" sid="911440418817653" type="Lien">
+                    <param id="0" name="X">Player2.X</param>
+                    <param id="1" name="Y">Player2.Y</param>
                 </action>
             </actions>
         </event-block>
