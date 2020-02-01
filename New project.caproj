@@ -17,7 +17,6 @@
     <used-behaviors>
         <behavior author="Scirra" id="DragnDrop" version="1">Drag &amp; Drop</behavior>
         <behavior author="Scirra" id="Physics" version="1">Physics</behavior>
-        <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
         <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
     </used-behaviors>
@@ -95,63 +94,64 @@
                 </animation-folder>
             </object-type>
         </object-folder>
-        <object-type name="Sprite" sid="545832802187338">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="DragDrop" sid="280156366317767">
-                    <behavior id="DragnDrop" />
-                </behavior-type>
-                <behavior-type name="Physics" sid="774321176369813">
-                    <behavior id="Physics" />
-                </behavior-type>
-                <behavior-type name="Platform" sid="974881499897687">
-                    <behavior id="Platform" />
-                </behavior-type>
-                <behavior-type name="Pin" sid="129346945806722">
-                    <behavior id="Pin" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="197634889117384" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite2" sid="347852809062772">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Pin" sid="605501274037143">
-                    <behavior id="Pin" />
-                </behavior-type>
-                <behavior-type name="DragDrop" sid="873820925168686">
-                    <behavior id="DragnDrop" />
-                </behavior-type>
-                <behavior-type name="Platform" sid="841438435999191">
-                    <behavior id="Platform" />
-                </behavior-type>
-                <behavior-type name="Physics" sid="241778041126223">
-                    <behavior id="Physics" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="916814132397752" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite3" sid="418820751861141">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Solid" sid="966189786779639">
-                    <behavior id="solid" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="447829381575612" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
+        <object-folder name="David">
+            <object-type name="D_Lien" sid="726410321129166">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="545908543156088" speed="5">
+                        <frame duration="1" hotspotX="-0.004" hotspotY="0.508" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="D_Plateforme" sid="418820751861141">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="966189786779639">
+                        <behavior id="solid" />
+                    </behavior-type>
+                    <behavior-type name="Physics" sid="352531983265361">
+                        <behavior id="Physics" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="447829381575612" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="D_Player1" sid="347852809062772">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Platform" sid="841438435999191">
+                        <behavior id="Platform" />
+                    </behavior-type>
+                    <behavior-type name="Physics" sid="241778041126223">
+                        <behavior id="Physics" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="916814132397752" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="D_Player2" sid="545832802187338">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Physics" sid="774321176369813">
+                        <behavior id="Physics" />
+                    </behavior-type>
+                    <behavior-type name="Platform" sid="974881499897687">
+                        <behavior id="Platform" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="197634889117384" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
         <object-type name="Keyboard" sid="366755525169395">
             <plugin id="Keyboard" />
         </object-type>
