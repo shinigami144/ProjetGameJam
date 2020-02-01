@@ -155,6 +155,66 @@
         <object-type name="Keyboard" sid="366755525169395">
             <plugin id="Keyboard" />
         </object-type>
+        <object-type name="Player1" sid="515406691301279">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="actif" sid="455150685251100" type="boolean" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Physics" sid="622504259109009">
+                    <behavior id="Physics" />
+                </behavior-type>
+                <behavior-type name="Platform" sid="991518151684221">
+                    <behavior id="Platform" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="414186699838525" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Player2" sid="691163041854537">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="actif" sid="726612541241324" type="boolean" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Physics" sid="366268830417561">
+                    <behavior id="Physics" />
+                </behavior-type>
+                <behavior-type name="Platform" sid="535802533871561">
+                    <behavior id="Platform" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="809272552646759" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="plateformCouleur" sid="764500711700172">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="Red" sid="577891575148358" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Solid" sid="836283393375414">
+                    <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="Physics" sid="675155895082304">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Red" pingpong="0" repeatcount="1" repeatto="0" sid="917222342970872" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+                <animation framecount="1" loop="0" name="Blue" pingpong="0" repeatcount="1" repeatto="0" sid="206040204738048" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
         <object-type name="Tilemap" sid="862576032006190">
             <plugin id="Tilemap" />
             <texture />
@@ -181,7 +241,7 @@
         <event-sheet>Event sheet Niveau 2.xml</event-sheet>
     </event-folder>
     <global-instances>
-        <global-instance type="Keyboard" uid="3" />
+        <global-instance type="Keyboard" uid="15" />
     </global-instances>
     <sounds-folder />
     <music-folder />
