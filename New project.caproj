@@ -534,6 +534,7 @@
         <layout>menuGlobal.xml</layout>
         <layout>Layout Niveau 2.xml</layout>
         <layout>Layout Niveau 4.xml</layout>
+        <layout>Layout Niveau 5.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Event sheet David.xml</event-sheet>
@@ -547,6 +548,7 @@
         <event-sheet>menuGlobal_eventsheet.xml</event-sheet>
         <event-sheet>Event sheet Niveau 2.xml</event-sheet>
         <event-sheet>Event sheet Niveau 4.xml</event-sheet>
+        <event-sheet>Event sheet niveau 5.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="99" />
