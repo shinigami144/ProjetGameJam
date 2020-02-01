@@ -2,5 +2,171 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Event sheet Guillaume</name>
-    <events />
+    <events>
+        <event-block sid="730079176456690">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="541001352500963" type="plateformCouleur">
+                    <param id="0" name="Instance variable">Red</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="748609573414119" type="plateformCouleur">
+                    <param id="0" name="Animation">&quot;blue&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="453048887725118">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="518604716456991" type="plateformCouleur">
+                    <param id="0" name="Instance variable">Red</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="437363810587526" type="plateformCouleur">
+                    <param id="0" name="Animation">&quot;red&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="244403752696571">
+            <conditions>
+                <condition behavior="Platform" id="9" name="On landed" sid="610575713995416" type="Player1" />
+                <condition id="-7" name="Compare instance variable" sid="719131276128428" type="plateformCouleur">
+                    <param id="0" name="Instance variable">Red</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Physics" id="27" name="Set enabled" sid="250897135842667" type="plateformCouleur">
+                    <param id="0" name="Mode">1</param>
+                </action>
+                <action behavior="Solid" id="0" name="Set enabled" sid="643739313260180" type="plateformCouleur">
+                    <param id="0" name="State">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="153684998816649">
+            <conditions>
+                <condition behavior="Platform" id="9" name="On landed" sid="389021773587751" type="Player2" />
+                <condition id="-7" name="Compare instance variable" sid="104627732009243" type="plateformCouleur">
+                    <param id="0" name="Instance variable">Red</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Physics" id="27" name="Set enabled" sid="337503772603751" type="plateformCouleur">
+                    <param id="0" name="Mode">1</param>
+                </action>
+                <action behavior="Solid" id="0" name="Set enabled" sid="870558877385797" type="plateformCouleur">
+                    <param id="0" name="State">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="224421339000070">
+            <conditions>
+                <condition behavior="Platform" id="5" name="On jump" sid="228411685522305" type="Player1" />
+                <condition id="-7" name="Compare instance variable" sid="339454954673621" type="plateformCouleur">
+                    <param id="0" name="Instance variable">Red</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Physics" id="27" name="Set enabled" sid="114726413743355" type="plateformCouleur">
+                    <param id="0" name="Mode">0</param>
+                </action>
+                <action behavior="Solid" id="0" name="Set enabled" sid="311904010497678" type="plateformCouleur">
+                    <param id="0" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="844642198184994">
+            <conditions>
+                <condition behavior="Platform" id="5" name="On jump" sid="923636103271229" type="Player2" />
+                <condition id="-7" name="Compare instance variable" sid="902932853737501" type="plateformCouleur">
+                    <param id="0" name="Instance variable">Red</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Physics" id="27" name="Set enabled" sid="899830611289706" type="plateformCouleur">
+                    <param id="0" name="Mode">0</param>
+                </action>
+                <action behavior="Solid" id="0" name="Set enabled" sid="189605056615443" type="plateformCouleur">
+                    <param id="0" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="736828576551414">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="354907781301208" type="Keyboard">
+                    <param id="0" name="Key">9</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-14" name="Toggle boolean" sid="545666873995221" type="Player1">
+                    <param id="0" name="Instance variable">actif</param>
+                </action>
+                <action id="-14" name="Toggle boolean" sid="623194013512535" type="Player2">
+                    <param id="0" name="Instance variable">actif</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block disabled="1" sid="164934049021716">
+            <conditions>
+                <condition id="-8" name="Is boolean instance variable set" sid="757375567718950" type="Player1">
+                    <param id="0" name="Instance variable">actif</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="11" name="Set enabled" sid="208382501593888" type="Player1">
+                    <param id="0" name="State">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block disabled="1" sid="327224132500101">
+            <conditions>
+                <condition id="-8" name="Is boolean instance variable set" sid="391018873832219" type="Player2">
+                    <param id="0" name="Instance variable">actif</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="11" name="Set enabled" sid="541612451550704" type="Player2">
+                    <param id="0" name="State">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block disabled="1" sid="530275876388984">
+            <conditions>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="609589727353348" type="Player1">
+                    <param id="0" name="Instance variable">actif</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="11" name="Set enabled" sid="434178361894054" type="Player1">
+                    <param id="0" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block disabled="1" sid="553483263875178">
+            <conditions>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="975120244998465" type="Player2">
+                    <param id="0" name="Instance variable">actif</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="11" name="Set enabled" sid="891315065048925" type="Player2">
+                    <param id="0" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
 </c2eventsheet>
