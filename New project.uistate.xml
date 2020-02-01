@@ -11,13 +11,14 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout order="0">Layout David</layout>
-        <layout order="2">Layout Guillaume</layout>
+        <layout active="1" order="2">Layout Guillaume</layout>
         <layout order="3">Layout Gaby</layout>
         <layout order="4">Layout Louis</layout>
         <layout order="5">Layout Manon</layout>
-        <layout active="1" order="7">Layout Niveau 1</layout>
+        <layout order="7">Layout Niveau 1</layout>
         <event-sheet order="1">Event sheet David</event-sheet>
         <event-sheet order="6">Event sheet Manon</event-sheet>
+        <event-sheet order="8">Event sheet Niveau 1</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
