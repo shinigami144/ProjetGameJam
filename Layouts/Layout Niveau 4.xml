@@ -47,7 +47,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="PaperrBG" uid="63">
+                <instance type="PaperrBG" uid="88">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -86,7 +86,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="TilePlateforme" uid="64">
+                <instance type="TilePlateforme" uid="89">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <tile-width>32</tile-width>
@@ -158,7 +158,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="D_Player1" uid="65">
+                <instance type="D_Player1" uid="90">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -223,7 +223,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="D_Player2" uid="66">
+                <instance type="D_Player2" uid="91">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -288,7 +288,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="plateformCouleur" uid="67">
+                <instance type="plateformCouleur" uid="92">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -297,6 +297,8 @@
                     </properties>
                     <instance-variables>
                         <Red>1</Red>
+                        <aller_retour>false</aller_retour>
+                        <casser>0</casser>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -334,7 +336,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="plateformCouleur" uid="68">
+                <instance type="plateformCouleur" uid="93">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -343,6 +345,8 @@
                     </properties>
                     <instance-variables>
                         <Red>0</Red>
+                        <aller_retour>false</aller_retour>
+                        <casser>0</casser>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -380,7 +384,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="plateformCouleur" uid="69">
+                <instance type="plateformCouleur" uid="94">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -389,6 +393,8 @@
                     </properties>
                     <instance-variables>
                         <Red>1</Red>
+                        <aller_retour>false</aller_retour>
+                        <casser>0</casser>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -426,7 +432,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="plateformCouleur" uid="70">
+                <instance type="plateformCouleur" uid="95">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -435,6 +441,8 @@
                     </properties>
                     <instance-variables>
                         <Red>0</Red>
+                        <aller_retour>false</aller_retour>
+                        <casser>0</casser>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -472,7 +480,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="portail" uid="71">
+                <instance type="portail" uid="96">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -494,7 +502,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="D_Lien" uid="72">
+                <instance type="D_Lien" uid="97">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -519,7 +527,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="plateformCouleur" uid="73">
+                <instance type="plateformCouleur" uid="98">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -528,6 +536,8 @@
                     </properties>
                     <instance-variables>
                         <Red>0</Red>
+                        <aller_retour>false</aller_retour>
+                        <casser>0</casser>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
