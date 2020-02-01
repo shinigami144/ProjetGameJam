@@ -342,6 +342,153 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="ObjetLouisQuiFaitBugger" sid="421430933130638">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Platform" sid="700881798075905">
+                    <behavior id="Platform" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="6" loop="1" name="Walk" pingpong="0" repeatcount="1" repeatto="0" sid="684590362880962" speed="5">
+                    <frame duration="1" hotspotX="-1" hotspotY="-1" original-source="C:\Users\Meng\Desktop\LUDUS\GGJ\Perso1.png">
+                        <collision-poly>
+                            <point x="0.782381" y="1" />
+                            <point x="1" y="0.871272" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="-1" hotspotY="-1" original-source="C:\Users\Meng\Desktop\LUDUS\GGJ\Perso1.png">
+                        <collision-poly>
+                            <point x="0" y="1" />
+                            <point x="1" y="0.871272" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="-1" hotspotY="-1" original-source="C:\Users\Meng\Desktop\LUDUS\GGJ\Perso1.png">
+                        <collision-poly>
+                            <point x="0" y="1" />
+                            <point x="1" y="0.535903" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="-1" hotspotY="-1" original-source="C:\Users\Meng\Desktop\LUDUS\GGJ\Perso1.png">
+                        <collision-poly>
+                            <point x="0" y="1" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="-1" hotspotY="-1" original-source="C:\Users\Meng\Desktop\LUDUS\GGJ\Perso1.png">
+                        <collision-poly>
+                            <point x="0" y="1" />
+                            <point x="0.975" y="0.603333" />
+                            <point x="0.975" y="1" />
+                            <point x="0.975" y="1" />
+                            <point x="0.975" y="1" />
+                            <point x="0.975" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="-1" hotspotY="-1" original-source="C:\Users\Meng\Desktop\LUDUS\GGJ\Perso1.png">
+                        <collision-poly>
+                            <point x="0" y="1" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite5" sid="804747174805551">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="550418342898809">
+                    <behavior id="Sin" />
+                </behavior-type>
+                <behavior-type name="Solid" sid="952332695529716">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="756357732614499" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Tilemap" sid="273842115236794">
+            <plugin id="Tilemap" />
+            <behaviors>
+                <behavior-type name="Solid" sid="385889299982040">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="C:\Users\Meng\Desktop\LUDUS\GGJ\tilemap1.png" />
+            <tiles />
+        </object-type>
+        <object-type name="Sprite6" sid="978901864908456">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="313602258845185" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite7" sid="784585198529295">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="902810458402728" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Tilemap2" sid="289511822817841">
+            <plugin id="Tilemap" />
+            <texture original-source="C:\Users\Meng\Desktop\LUDUS\GGJ\tilemap1.png" />
+            <tiles />
+        </object-type>
+        <object-type name="MurBleu" sid="228436658533683">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="772566359638978" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="MurRouge" sid="959494157772452">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="675713543045188" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -354,6 +501,7 @@
         <layout>Layout Niveau 2.xml</layout>
         <layout>menuIngame.xml</layout>
         <layout>menuGlobal.xml</layout>
+        <layout>Layout 1.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Event sheet David.xml</event-sheet>
@@ -365,9 +513,10 @@
         <event-sheet>Event sheet Niveau 2.xml</event-sheet>
         <event-sheet>menuIngame_eventsheet.xml</event-sheet>
         <event-sheet>menuGlobal_eventsheet.xml</event-sheet>
+        <event-sheet>Event sheet 1.xml</event-sheet>
     </event-folder>
     <global-instances>
-        <global-instance type="Keyboard" uid="21" />
+        <global-instance type="Keyboard" uid="56" />
     </global-instances>
     <sounds-folder />
     <music-folder />
