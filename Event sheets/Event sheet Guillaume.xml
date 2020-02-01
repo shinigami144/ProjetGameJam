@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Event sheet Guillaume</name>
     <events>
+        <include>Event sheet Manon</include>
         <include>Event sheet David</include>
         <event-block sid="730079176456690">
             <conditions>

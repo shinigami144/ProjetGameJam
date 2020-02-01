@@ -489,6 +489,14 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Dead_zone" sid="628910173967225">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="798756794003619" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -498,10 +506,10 @@
         <layout>Layout Louis.xml</layout>
         <layout>Layout Manon.xml</layout>
         <layout>Layout Niveau 1.xml</layout>
-        <layout>Layout Niveau 2.xml</layout>
+        <layout>Layout Niveau 3.xml</layout>
         <layout>menuIngame.xml</layout>
         <layout>menuGlobal.xml</layout>
-        <layout>Layout 1.xml</layout>
+        <layout>Layout Niveau 2.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Event sheet David.xml</event-sheet>
@@ -510,10 +518,10 @@
         <event-sheet>Event sheet Louis.xml</event-sheet>
         <event-sheet>Event sheet Manon.xml</event-sheet>
         <event-sheet>Event sheet Niveau 1.xml</event-sheet>
-        <event-sheet>Event sheet Niveau 2.xml</event-sheet>
+        <event-sheet>Event sheet Niveau 3.xml</event-sheet>
         <event-sheet>menuIngame_eventsheet.xml</event-sheet>
         <event-sheet>menuGlobal_eventsheet.xml</event-sheet>
-        <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>Event sheet Niveau 2.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="56" />

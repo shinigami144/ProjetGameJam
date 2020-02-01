@@ -86,34 +86,49 @@
                                 <condition id="-8" name="Is boolean instance variable set" sid="201534291219006" type="D_Lien">
                                     <param id="0" name="Instance variable">isLocked</param>
                                 </condition>
+                                <condition id="-4" name="Trigger once while true" sid="582001771758206" type="System" />
+                            </conditions>
+                            <actions>
+                                <action behavior="Physics" id="26" name="Remove all joints" sid="309512855896391" type="D_Player1" />
+                                <action behavior="Physics" id="10" name="Create distance joint" sid="565068779233997" type="D_Player1">
+                                    <param id="0" name="This image point">-1</param>
+                                    <param id="1" name="Object">D_Player2</param>
+                                    <param id="2" name="That image point">-1</param>
+                                    <param id="3" name="Damping ratio">0</param>
+                                    <param id="4" name="Spring frequency">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="578718368603093">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="927968785977636" type="System">
+                                    <param id="0" name="Variable">linkExisting</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                                <condition id="-8" name="Is boolean instance variable set" sid="206667573479011" type="D_Lien">
+                                    <param id="0" name="Instance variable">isLocked</param>
+                                </condition>
                             </conditions>
                             <actions />
                             <sub-events>
-                                <event-block sid="710681255992932">
+                                <event-block sid="867427501294369">
                                     <conditions>
-                                        <condition id="-6" name="Every X seconds" sid="536353305304481" type="System">
+                                        <condition id="-6" name="Every X seconds" sid="473775062807530" type="System">
                                             <param id="0" name="Interval (seconds)">0.01</param>
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action behavior="Physics" id="26" name="Remove all joints" sid="309512855896391" type="D_Player1" />
-                                        <action id="-5" name="Set width" sid="448150588167057" type="D_Lien">
+                                        <action id="-5" name="Set width" sid="843261162985370" type="D_Lien">
                                             <param id="0" name="Width">distance(D_Player1.X,D_Player1.Y,D_Player2.X,D_Player2.Y)</param>
                                         </action>
-                                        <action id="-3" name="Set position" sid="723388720519000" type="D_Lien">
+                                        <action id="-3" name="Set position" sid="252004653032067" type="D_Lien">
                                             <param id="0" name="X">D_Player1.X</param>
                                             <param id="1" name="Y">D_Player1.Y</param>
                                         </action>
-                                        <action id="-22" name="Set angle toward position" sid="444458785274942" type="D_Lien">
+                                        <action id="-22" name="Set angle toward position" sid="776188637421032" type="D_Lien">
                                             <param id="0" name="X">D_Player2.X</param>
                                             <param id="1" name="Y">D_Player2.Y</param>
-                                        </action>
-                                        <action behavior="Physics" id="10" name="Create distance joint" sid="565068779233997" type="D_Player1">
-                                            <param id="0" name="This image point">-1</param>
-                                            <param id="1" name="Object">D_Player2</param>
-                                            <param id="2" name="That image point">-1</param>
-                                            <param id="3" name="Damping ratio">0</param>
-                                            <param id="4" name="Spring frequency">0</param>
                                         </action>
                                     </actions>
                                 </event-block>
