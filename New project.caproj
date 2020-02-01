@@ -12,6 +12,7 @@
     <used-plugins>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
         <plugin author="Scirra" id="Tilemap" version="1">Tilemap</plugin>
     </used-plugins>
     <used-behaviors>
@@ -97,6 +98,9 @@
         <object-folder name="David">
             <object-type name="D_Lien" sid="726410321129166">
                 <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="isLocked" sid="802008523247527" type="boolean" />
+                </instance-variables>
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="545908543156088" speed="5">
                         <frame duration="1" hotspotX="-0.004" hotspotY="0.508" />
@@ -121,6 +125,9 @@
             </object-type>
             <object-type name="D_Player1" sid="347852809062772">
                 <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="actif" sid="302974745284585" type="boolean" />
+                </instance-variables>
                 <behaviors>
                     <behavior-type name="Platform" sid="841438435999191">
                         <behavior id="Platform" />
@@ -137,6 +144,9 @@
             </object-type>
             <object-type name="D_Player2" sid="545832802187338">
                 <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="actif" sid="197051496906318" type="boolean" />
+                </instance-variables>
                 <behaviors>
                     <behavior-type name="Physics" sid="774321176369813">
                         <behavior id="Physics" />
@@ -150,6 +160,12 @@
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     </animation>
                 </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="Niveau1">
+            <object-type name="PaperrBG" sid="582105604347610">
+                <plugin id="TiledBg" />
+                <texture original-source="C:\Users\Asus D50C\Desktop\BG.png" />
             </object-type>
         </object-folder>
         <object-type name="Keyboard" sid="366755525169395">
@@ -215,9 +231,17 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Tilemap" sid="862576032006190">
+        <object-type name="TilePlateforme" sid="426933886402626">
             <plugin id="Tilemap" />
-            <texture />
+            <behaviors>
+                <behavior-type name="Physics" sid="980344517527699">
+                    <behavior id="Physics" />
+                </behavior-type>
+                <behavior-type name="Solid" sid="176239772524127">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="C:\Users\Asus D50C\Desktop\cfvgbhnjmk.png" />
             <tiles />
         </object-type>
     </object-folder>
@@ -241,7 +265,7 @@
         <event-sheet>Event sheet Niveau 2.xml</event-sheet>
     </event-folder>
     <global-instances>
-        <global-instance type="Keyboard" uid="15" />
+        <global-instance type="Keyboard" uid="21" />
     </global-instances>
     <sounds-folder />
     <music-folder />

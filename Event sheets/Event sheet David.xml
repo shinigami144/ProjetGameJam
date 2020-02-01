@@ -12,47 +12,15 @@
             <sub-events>
                 <event-block sid="116738108259147">
                     <conditions>
-                        <condition id="-14" name="Compare variable" sid="163567375110748" type="System">
-                            <param id="0" name="Variable">linkLocked</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">0</param>
-                        </condition>
                         <condition id="2" name="Key is down" sid="866200039729498" type="Keyboard">
-                            <param id="0" name="Key">76</param>
+                            <param id="0" name="Key">32</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-9" name="Set value" sid="297957625614414" type="System">
-                            <param id="0" name="Variable">linkLocked</param>
-                            <param id="1" name="Value">1</param>
+                        <action id="-14" name="Toggle boolean" sid="932402466089177" type="D_Lien">
+                            <param id="0" name="Instance variable">isLocked</param>
                         </action>
                     </actions>
-                </event-block>
-                <event-block sid="250016845482114">
-                    <conditions>
-                        <condition id="-22" name="Else" sid="586627866107351" type="System" />
-                    </conditions>
-                    <actions />
-                    <sub-events>
-                        <event-block sid="850378936473690">
-                            <conditions>
-                                <condition id="2" name="Key is down" sid="817714249952362" type="Keyboard">
-                                    <param id="0" name="Key">76</param>
-                                </condition>
-                                <condition id="-14" name="Compare variable" sid="775781422083732" type="System">
-                                    <param id="0" name="Variable">linkLocked</param>
-                                    <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Value">1</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="-9" name="Set value" sid="481521370261639" type="System">
-                                    <param id="0" name="Variable">linkLocked</param>
-                                    <param id="1" name="Value">0</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                    </sub-events>
                 </event-block>
             </sub-events>
         </event-group>
@@ -76,10 +44,8 @@
                                     <param id="1" name="Comparison">0</param>
                                     <param id="2" name="Value">0</param>
                                 </condition>
-                                <condition id="-14" name="Compare variable" sid="957710783905657" type="System">
-                                    <param id="0" name="Variable">linkLocked</param>
-                                    <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Value">1</param>
+                                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="712199336650759" type="D_Lien">
+                                    <param id="0" name="Instance variable">isLocked</param>
                                 </condition>
                             </conditions>
                             <actions>
@@ -116,21 +82,11 @@
                                     <param id="1" name="Comparison">0</param>
                                     <param id="2" name="Value">0</param>
                                 </condition>
-                                <condition id="-14" name="Compare variable" sid="201534291219006" type="System">
-                                    <param id="0" name="Variable">linkLocked</param>
-                                    <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Value">0</param>
+                                <condition id="-8" name="Is boolean instance variable set" sid="201534291219006" type="D_Lien">
+                                    <param id="0" name="Instance variable">isLocked</param>
                                 </condition>
                             </conditions>
-                            <actions>
-                                <action behavior="Physics" id="10" name="Create distance joint" sid="565068779233997" type="D_Player1">
-                                    <param id="0" name="This image point">-1</param>
-                                    <param id="1" name="Object">D_Player2</param>
-                                    <param id="2" name="That image point">-1</param>
-                                    <param id="3" name="Damping ratio">1</param>
-                                    <param id="4" name="Spring frequency">0</param>
-                                </action>
-                            </actions>
+                            <actions />
                             <sub-events>
                                 <event-block sid="710681255992932">
                                     <conditions>
@@ -139,6 +95,7 @@
                                         </condition>
                                     </conditions>
                                     <actions>
+                                        <action behavior="Physics" id="26" name="Remove all joints" sid="309512855896391" type="D_Player1" />
                                         <action id="-5" name="Set width" sid="448150588167057" type="D_Lien">
                                             <param id="0" name="Width">distance(D_Player1.X,D_Player1.Y,D_Player2.X,D_Player2.Y)</param>
                                         </action>
@@ -150,47 +107,12 @@
                                             <param id="0" name="X">D_Player2.X</param>
                                             <param id="1" name="Y">D_Player2.Y</param>
                                         </action>
-                                    </actions>
-                                </event-block>
-                            </sub-events>
-                        </event-block>
-                        <event-block sid="208663434268454">
-                            <conditions>
-                                <condition id="-14" name="Compare variable" sid="696105052462699" type="System">
-                                    <param id="0" name="Variable">actualPlayer</param>
-                                    <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Value">1</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action behavior="Platform" id="11" name="Set enabled" sid="389723970674653" type="D_Player1">
-                                    <param id="0" name="State">1</param>
-                                </action>
-                                <action behavior="Platform" id="11" name="Set enabled" sid="727746366094069" type="D_Player2">
-                                    <param id="0" name="State">0</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                        <event-block sid="446506412514801">
-                            <conditions>
-                                <condition id="-22" name="Else" sid="705833970536717" type="System" />
-                            </conditions>
-                            <actions />
-                            <sub-events>
-                                <event-block sid="352088603890910">
-                                    <conditions>
-                                        <condition id="-14" name="Compare variable" sid="758658074535726" type="System">
-                                            <param id="0" name="Variable">actualPlayer</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">2</param>
-                                        </condition>
-                                    </conditions>
-                                    <actions>
-                                        <action behavior="Platform" id="11" name="Set enabled" sid="421212275476499" type="D_Player1">
-                                            <param id="0" name="State">0</param>
-                                        </action>
-                                        <action behavior="Platform" id="11" name="Set enabled" sid="444292911731244" type="D_Player2">
-                                            <param id="0" name="State">1</param>
+                                        <action behavior="Physics" id="10" name="Create distance joint" sid="565068779233997" type="D_Player1">
+                                            <param id="0" name="This image point">-1</param>
+                                            <param id="1" name="Object">D_Player2</param>
+                                            <param id="2" name="That image point">-1</param>
+                                            <param id="3" name="Damping ratio">0</param>
+                                            <param id="4" name="Spring frequency">0</param>
                                         </action>
                                     </actions>
                                 </event-block>
