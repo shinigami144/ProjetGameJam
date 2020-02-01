@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Sol" uid="4">
+                <instance type="Sol" uid="20">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -58,7 +58,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Caisse" uid="5">
+                <instance type="Caisse" uid="21">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -90,7 +90,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Lien" uid="6">
+                <instance type="Lien" uid="22">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>

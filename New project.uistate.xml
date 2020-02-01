@@ -11,14 +11,15 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout order="0">Layout David</layout>
-        <layout order="5">Layout Guillaume</layout>
         <layout order="3">menuIngame</layout>
+        <layout order="5">Layout Guillaume</layout>
         <layout order="8">menuGlobal</layout>
         <layout order="9">Layout Niveau 1</layout>
+        <layout active="1" order="10">Layout 1</layout>
         <event-sheet order="1">Event sheet David</event-sheet>
-        <event-sheet active="1" order="2">Event sheet Guillaume</event-sheet>
-        <event-sheet order="6">Event sheet Niveau 1</event-sheet>
+        <event-sheet order="2">Event sheet Guillaume</event-sheet>
         <event-sheet order="4">menuIngame_eventsheet</event-sheet>
+        <event-sheet order="6">Event sheet Niveau 1</event-sheet>
         <event-sheet order="7">menuGlobal_eventsheet</event-sheet>
     </open-tabs>
     <properties>
@@ -56,5 +57,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Surligneur_menuIngame/" />
         <folder expanded="1" path="animation-folder/Fond_text_menuGlobal/" />
         <folder expanded="1" path="animation-folder/Surligneur_menuGlobal/" />
+        <folder expanded="1" path="animation-folder/ObjetLouisQuiFaitBugger/" />
+        <folder expanded="1" path="animation-folder/Sprite5/" />
+        <folder expanded="1" path="animation-folder/Sprite6/" />
+        <folder expanded="1" path="animation-folder/Sprite7/" />
+        <folder expanded="1" path="animation-folder/MurBleu/" />
+        <folder expanded="1" path="animation-folder/MurRouge/" />
     </folders-expanded>
 </c2uistate>

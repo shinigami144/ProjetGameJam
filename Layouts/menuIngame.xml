@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Fond_menuIngame" uid="30">
+                <instance type="Fond_menuIngame" uid="37">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -51,7 +51,7 @@
                         <opacity>0.75</opacity>
                     </world>
                 </instance>
-                <instance type="Fond_text_menuIngame" uid="31">
+                <instance type="Fond_text_menuIngame" uid="38">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -73,7 +73,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Fond_text_menuIngame" uid="32">
+                <instance type="Fond_text_menuIngame" uid="39">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -95,7 +95,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Fond_text_menuIngame" uid="33">
+                <instance type="Fond_text_menuIngame" uid="40">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -117,7 +117,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Text_menuIngame" uid="34">
+                <instance type="Text_menuIngame" uid="41">
                     <properties>
                         <text>SAUVEGARDER</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -144,7 +144,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Text_menuIngame" uid="35">
+                <instance type="Text_menuIngame" uid="42">
                     <properties>
                         <text>CHARGER DERNIERE SAUVEGARDE</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -171,7 +171,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Text_menuIngame" uid="36">
+                <instance type="Text_menuIngame" uid="43">
                     <properties>
                         <text>QUITTER</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -198,7 +198,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Fond_text_menuIngame" uid="8">
+                <instance type="Fond_text_menuIngame" uid="44">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -220,7 +220,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Text_menuIngame" uid="9">
+                <instance type="Text_menuIngame" uid="46">
                     <properties>
                         <text>RECOMMENCER</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -247,7 +247,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Surligneur_menuIngame" uid="37">
+                <instance type="Surligneur_menuIngame" uid="48">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -281,7 +281,7 @@
                         <width>548.662658691</width>
                         <height>38.82529068</height>
                         <depth>0</depth>
-                        <hotspotX>0.500931025</hotspotX>
+                        <hotspotX>0.500931084</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
