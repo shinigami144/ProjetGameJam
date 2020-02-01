@@ -2,5 +2,8 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Event sheet Niveau 2</name>
-    <events />
+    <events>
+        <include>Event sheet Guillaume</include>
+        <include>Event sheet David</include>
+    </events>
 </c2eventsheet>
