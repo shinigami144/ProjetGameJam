@@ -3,54 +3,202 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Event sheet David</name>
     <events>
-        <event-block sid="605282775992764">
-            <conditions>
-                <condition id="-2" name="On start of layout" sid="592902240506799" type="System" />
-            </conditions>
-            <actions>
-                <action behavior="Pin" disabled="1" id="0" name="Pin to object" sid="365432779989791" type="Sprite2">
-                    <param id="0" name="Pin to">Sprite</param>
-                    <param id="1" name="Mode">3</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="406441150306088">
-            <conditions>
-                <condition id="-2" name="On start of layout" sid="433933156413262" type="System" />
-            </conditions>
-            <actions>
-                <action behavior="Pin" id="0" name="Pin to object" sid="254410296733455" type="Sprite">
-                    <param id="0" name="Pin to">Sprite2</param>
-                    <param id="1" name="Mode">3</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="317641756619243">
-            <conditions>
-                <condition id="1" inverted="1" name="Is overlapping another object" sid="746679181483864" type="Sprite">
-                    <param id="0" name="Object">Sprite3</param>
-                </condition>
-                <condition id="2" name="Key is down" sid="636784291383345" type="Keyboard">
-                    <param id="0" name="Key">32</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action behavior="Physics" id="0" name="Apply force" sid="451473719024078" type="Sprite">
-                    <param id="0" name="Force X">2000</param>
-                    <param id="1" name="Force Y">2000</param>
-                    <param id="2" name="Image point">0</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="416599629870002">
-            <conditions>
-                <condition id="-2" name="On start of layout" sid="856314775767918" type="System" />
-            </conditions>
-            <actions>
-                <action behavior="Physics" id="12" name="Set world gravity" sid="570403196148425" type="Sprite">
-                    <param id="0" name="Gravity">1500</param>
-                </action>
-            </actions>
-        </event-block>
+        <comment>0 - true; 1 - false</comment>
+        <variable comment="1 - player1; 2 - player2" constant="0" name="actualPlayer" sid="264465336895216" static="0" type="number">1</variable>
+        <variable constant="0" name="linkLocked" sid="171577109630995" static="0" type="number">1</variable>
+        <variable constant="0" name="linkExisting" sid="628131189366557" static="0" type="number">0</variable>
+        <variable constant="0" name="inGame" sid="933795744291044" static="0" type="number">0</variable>
+        <event-group description="" sid="217055627981160" title="Inputs">
+            <sub-events>
+                <event-block sid="116738108259147">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="163567375110748" type="System">
+                            <param id="0" name="Variable">linkLocked</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                        <condition id="2" name="Key is down" sid="866200039729498" type="Keyboard">
+                            <param id="0" name="Key">76</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="297957625614414" type="System">
+                            <param id="0" name="Variable">linkLocked</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="250016845482114">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="586627866107351" type="System" />
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="850378936473690">
+                            <conditions>
+                                <condition id="2" name="Key is down" sid="817714249952362" type="Keyboard">
+                                    <param id="0" name="Key">76</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="775781422083732" type="System">
+                                    <param id="0" name="Variable">linkLocked</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="481521370261639" type="System">
+                                    <param id="0" name="Variable">linkLocked</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="305099867647180" title="Link">
+            <sub-events>
+                <event-block sid="508949076557863">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="632616683476087" type="System">
+                            <param id="0" name="Variable">inGame</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <comment>Quand le lien existe et qu&apos;il est pas lock</comment>
+                        <event-block sid="727528391214717">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="487701390289218" type="System">
+                                    <param id="0" name="Variable">linkExisting</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="957710783905657" type="System">
+                                    <param id="0" name="Variable">linkLocked</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Physics" id="26" name="Remove all joints" sid="866883502984115" type="D_Player1" />
+                            </actions>
+                            <sub-events>
+                                <event-block sid="819778996045096">
+                                    <conditions>
+                                        <condition id="-6" name="Every X seconds" sid="757117748053734" type="System">
+                                            <param id="0" name="Interval (seconds)">0.01</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-5" name="Set width" sid="282810948519124" type="D_Lien">
+                                            <param id="0" name="Width">distance(D_Player1.X,D_Player1.Y,D_Player2.X,D_Player2.Y)</param>
+                                        </action>
+                                        <action id="-3" name="Set position" sid="284985412341234" type="D_Lien">
+                                            <param id="0" name="X">D_Player1.X</param>
+                                            <param id="1" name="Y">D_Player1.Y</param>
+                                        </action>
+                                        <action id="-22" name="Set angle toward position" sid="962248669063998" type="D_Lien">
+                                            <param id="0" name="X">D_Player2.X</param>
+                                            <param id="1" name="Y">D_Player2.Y</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <comment>Quand le lien existe et qu&apos;il est lock</comment>
+                        <event-block sid="221159346236217">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="718064601042204" type="System">
+                                    <param id="0" name="Variable">linkExisting</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="201534291219006" type="System">
+                                    <param id="0" name="Variable">linkLocked</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Physics" id="10" name="Create distance joint" sid="565068779233997" type="D_Player1">
+                                    <param id="0" name="This image point">-1</param>
+                                    <param id="1" name="Object">D_Player2</param>
+                                    <param id="2" name="That image point">-1</param>
+                                    <param id="3" name="Damping ratio">1</param>
+                                    <param id="4" name="Spring frequency">0</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="710681255992932">
+                                    <conditions>
+                                        <condition id="-6" name="Every X seconds" sid="536353305304481" type="System">
+                                            <param id="0" name="Interval (seconds)">0.01</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-5" name="Set width" sid="448150588167057" type="D_Lien">
+                                            <param id="0" name="Width">distance(D_Player1.X,D_Player1.Y,D_Player2.X,D_Player2.Y)</param>
+                                        </action>
+                                        <action id="-3" name="Set position" sid="723388720519000" type="D_Lien">
+                                            <param id="0" name="X">D_Player1.X</param>
+                                            <param id="1" name="Y">D_Player1.Y</param>
+                                        </action>
+                                        <action id="-22" name="Set angle toward position" sid="444458785274942" type="D_Lien">
+                                            <param id="0" name="X">D_Player2.X</param>
+                                            <param id="1" name="Y">D_Player2.Y</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="208663434268454">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="696105052462699" type="System">
+                                    <param id="0" name="Variable">actualPlayer</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Platform" id="11" name="Set enabled" sid="389723970674653" type="D_Player1">
+                                    <param id="0" name="State">1</param>
+                                </action>
+                                <action behavior="Platform" id="11" name="Set enabled" sid="727746366094069" type="D_Player2">
+                                    <param id="0" name="State">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="446506412514801">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="705833970536717" type="System" />
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="352088603890910">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="758658074535726" type="System">
+                                            <param id="0" name="Variable">actualPlayer</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">2</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Platform" id="11" name="Set enabled" sid="421212275476499" type="D_Player1">
+                                            <param id="0" name="State">0</param>
+                                        </action>
+                                        <action behavior="Platform" id="11" name="Set enabled" sid="444292911731244" type="D_Player2">
+                                            <param id="0" name="State">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
     </events>
 </c2eventsheet>

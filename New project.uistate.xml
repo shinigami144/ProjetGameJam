@@ -30,6 +30,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <folders-expanded>
         <folder expanded="1" path="object-folder/" />
         <folder expanded="0" path="object-folder/Manon/" />
+        <folder expanded="1" path="object-folder/David/" />
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="1" path="event-folder/" />
         <folder expanded="1" path="file-folder/" />
@@ -39,9 +40,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Sol/" />
         <folder expanded="1" path="animation-folder/Caisse/" />
         <folder expanded="1" path="animation-folder/Lien/" />
-        <folder expanded="1" path="animation-folder/Sprite/" />
-        <folder expanded="1" path="animation-folder/Sprite2/" />
-        <folder expanded="1" path="animation-folder/Sprite3/" />
+        <folder expanded="1" path="animation-folder/D_Lien/" />
+        <folder expanded="1" path="animation-folder/D_Plateforme/" />
+        <folder expanded="1" path="animation-folder/D_Player1/" />
+        <folder expanded="1" path="animation-folder/D_Player2/" />
         <folder expanded="1" path="animation-folder/Player1/" />
         <folder expanded="1" path="animation-folder/Player2/" />
         <folder expanded="1" path="animation-folder/plateformCouleur/" />
