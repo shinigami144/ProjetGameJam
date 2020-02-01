@@ -222,6 +222,8 @@
             <plugin id="Sprite" />
             <instance-variables>
                 <instance-variable name="Red" sid="577891575148358" type="number" />
+                <instance-variable name="aller_retour" sid="202296002776016" type="boolean" />
+                <instance-variable name="casser" sid="460607903604655" type="number" />
             </instance-variables>
             <behaviors>
                 <behavior-type name="Solid" sid="836283393375414">
@@ -236,6 +238,12 @@
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
                 <animation framecount="1" loop="0" name="Blue" pingpong="0" repeatcount="1" repeatto="0" sid="206040204738048" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+                <animation framecount="1" loop="0" name="casser_red" pingpong="0" repeatcount="1" repeatto="0" sid="459138265774480" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+                <animation framecount="1" loop="0" name="casser_blue" pingpong="0" repeatcount="1" repeatto="0" sid="963883138846933" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
@@ -493,6 +501,14 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="798756794003619" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="collider" sid="588780913853464">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="378135382809146" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>

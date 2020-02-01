@@ -16,6 +16,12 @@
                         <condition id="0" name="On key pressed" sid="866200039729498" type="Keyboard">
                             <param id="0" name="Key">32</param>
                         </condition>
+                        <condition id="-8" name="Compare two values" sid="542478825266749" type="System">
+                            <param id="0" name="First value">distance(D_Player1.X,D_Player1.Y,D_Player2.X,D_Player2.y)</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Second value">200</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="140769616065293" type="D_Lien" />
                     </conditions>
                     <actions>
                         <action id="-14" name="Toggle boolean" sid="932402466089177" type="D_Lien">
