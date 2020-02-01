@@ -520,6 +520,30 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="BlocNoir" sid="775855092523446">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="716215808611088">
+                    <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="Physics" sid="813162622081190">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="517130695965828" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="DeadZone" sid="135352258639089">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="519405017642170" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -534,6 +558,7 @@
         <layout>menuGlobal.xml</layout>
         <layout>Layout Niveau 2.xml</layout>
         <layout>Layout Niveau 4.xml</layout>
+        <layout>Layout Niveau 5.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Event sheet David.xml</event-sheet>
@@ -547,6 +572,7 @@
         <event-sheet>menuGlobal_eventsheet.xml</event-sheet>
         <event-sheet>Event sheet Niveau 2.xml</event-sheet>
         <event-sheet>Event sheet Niveau 4.xml</event-sheet>
+        <event-sheet>Event sheet niveau 5.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="99" />
