@@ -13,12 +13,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="0">Layout David</layout>
         <layout order="5">Layout Guillaume</layout>
         <layout order="3">menuIngame</layout>
+        <layout order="5">Layout Guillaume</layout>
         <layout order="8">menuGlobal</layout>
         <layout order="9">Layout Niveau 1</layout>
         <event-sheet order="1">Event sheet David</event-sheet>
         <event-sheet active="1" order="2">Event sheet Guillaume</event-sheet>
-        <event-sheet order="6">Event sheet Niveau 1</event-sheet>
         <event-sheet order="4">menuIngame_eventsheet</event-sheet>
+        <event-sheet order="8">Event sheet Niveau 1</event-sheet>
         <event-sheet order="7">menuGlobal_eventsheet</event-sheet>
     </open-tabs>
     <properties>
