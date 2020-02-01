@@ -138,5 +138,102 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <comment>// Deplacement en ZQSD</comment>
+        <event-block sid="646189171354023">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="242590762693610" type="System">
+                    <param id="0" name="Variable">actualPlayer</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="943417179405350">
+                    <conditions>
+                        <condition id="2" name="Key is down" sid="637568589281067" type="Keyboard">
+                            <param id="0" name="Key">90</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Platform" id="7" name="Simulate control" sid="571345625911631" type="D_Player1">
+                            <param id="0" name="Control">2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="117670414989123">
+                    <conditions>
+                        <condition id="2" name="Key is down" sid="495227766465329" type="Keyboard">
+                            <param id="0" name="Key">81</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Platform" id="7" name="Simulate control" sid="822954489488342" type="D_Player1">
+                            <param id="0" name="Control">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="626871116089976">
+                    <conditions>
+                        <condition id="2" name="Key is down" sid="960285085725993" type="Keyboard">
+                            <param id="0" name="Key">68</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Platform" id="7" name="Simulate control" sid="207134464540169" type="D_Player1">
+                            <param id="0" name="Control">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="555003378230769">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="130331549921473" type="System">
+                    <param id="0" name="Variable">actualPlayer</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">2</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="723954843743035">
+                    <conditions>
+                        <condition id="2" name="Key is down" sid="967928934728634" type="Keyboard">
+                            <param id="0" name="Key">90</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Platform" id="7" name="Simulate control" sid="848170947370899" type="D_Player2">
+                            <param id="0" name="Control">2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="412477642401022">
+                    <conditions>
+                        <condition id="2" name="Key is down" sid="227160456678463" type="Keyboard">
+                            <param id="0" name="Key">81</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Platform" id="7" name="Simulate control" sid="772840815877563" type="D_Player2">
+                            <param id="0" name="Control">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="283790037578319">
+                    <conditions>
+                        <condition id="2" name="Key is down" sid="454227225065880" type="Keyboard">
+                            <param id="0" name="Key">68</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Platform" id="7" name="Simulate control" sid="437642445509701" type="D_Player2">
+                            <param id="0" name="Control">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
     </events>
 </c2eventsheet>
