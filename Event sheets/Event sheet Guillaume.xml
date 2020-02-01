@@ -426,6 +426,7 @@
                     <param id="1" name="Comparison">0</param>
                     <param id="2" name="Value">0</param>
                 </condition>
+                <condition id="-9" name="Is visible" sid="845434294786450" type="D_Lien" />
             </conditions>
             <actions>
                 <action id="-13" name="Set boolean" sid="932443372242533" type="D_Lien">

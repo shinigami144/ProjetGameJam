@@ -549,7 +549,7 @@
         <event-sheet>Event sheet Niveau 4.xml</event-sheet>
     </event-folder>
     <global-instances>
-        <global-instance type="Keyboard" uid="91" />
+        <global-instance type="Keyboard" uid="99" />
     </global-instances>
     <sounds-folder />
     <music-folder />
