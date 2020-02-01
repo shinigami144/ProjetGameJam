@@ -35,11 +35,13 @@
         </event-block>
         <event-block sid="244403752696571">
             <conditions>
-                <condition behavior="Platform" id="9" name="On landed" sid="610575713995416" type="Player1" />
+                <condition id="0" name="On collision with another object" sid="610575713995416" type="Player1">
+                    <param id="0" name="Object">plateformCouleur</param>
+                </condition>
                 <condition id="-7" name="Compare instance variable" sid="719131276128428" type="plateformCouleur">
                     <param id="0" name="Instance variable">Red</param>
                     <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">1</param>
+                    <param id="2" name="Value">0</param>
                 </condition>
             </conditions>
             <actions>
@@ -53,11 +55,13 @@
         </event-block>
         <event-block sid="153684998816649">
             <conditions>
-                <condition behavior="Platform" id="9" name="On landed" sid="389021773587751" type="Player2" />
+                <condition id="0" name="On collision with another object" sid="389021773587751" type="Player2">
+                    <param id="0" name="Object">plateformCouleur</param>
+                </condition>
                 <condition id="-7" name="Compare instance variable" sid="104627732009243" type="plateformCouleur">
                     <param id="0" name="Instance variable">Red</param>
                     <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">0</param>
+                    <param id="2" name="Value">1</param>
                 </condition>
             </conditions>
             <actions>
@@ -120,7 +124,7 @@
                 </action>
             </actions>
         </event-block>
-        <event-block disabled="1" sid="164934049021716">
+        <event-block sid="164934049021716">
             <conditions>
                 <condition id="-8" name="Is boolean instance variable set" sid="757375567718950" type="Player1">
                     <param id="0" name="Instance variable">actif</param>
@@ -132,7 +136,7 @@
                 </action>
             </actions>
         </event-block>
-        <event-block disabled="1" sid="327224132500101">
+        <event-block sid="327224132500101">
             <conditions>
                 <condition id="-8" name="Is boolean instance variable set" sid="391018873832219" type="Player2">
                     <param id="0" name="Instance variable">actif</param>
@@ -144,7 +148,7 @@
                 </action>
             </actions>
         </event-block>
-        <event-block disabled="1" sid="530275876388984">
+        <event-block sid="530275876388984">
             <conditions>
                 <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="609589727353348" type="Player1">
                     <param id="0" name="Instance variable">actif</param>
@@ -156,7 +160,7 @@
                 </action>
             </actions>
         </event-block>
-        <event-block disabled="1" sid="553483263875178">
+        <event-block sid="553483263875178">
             <conditions>
                 <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="975120244998465" type="Player2">
                     <param id="0" name="Instance variable">actif</param>
