@@ -12,10 +12,15 @@
                     <param id="1" name="Comparison">0</param>
                     <param id="2" name="Value">0</param>
                 </condition>
+                <condition id="-7" name="Compare instance variable" sid="427527416041138" type="plateformCouleur">
+                    <param id="0" name="Instance variable">casser</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
             </conditions>
             <actions>
                 <action id="4" name="Set animation" sid="748609573414119" type="plateformCouleur">
-                    <param id="0" name="Animation">&quot;blue&quot;</param>
+                    <param id="0" name="Animation">&quot;casser_blue&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
             </actions>
@@ -27,9 +32,54 @@
                     <param id="1" name="Comparison">0</param>
                     <param id="2" name="Value">1</param>
                 </condition>
+                <condition id="-7" name="Compare instance variable" sid="665449232219630" type="plateformCouleur">
+                    <param id="0" name="Instance variable">casser</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
             </conditions>
             <actions>
                 <action id="4" name="Set animation" sid="437363810587526" type="plateformCouleur">
+                    <param id="0" name="Animation">&quot;casser_red&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="476537193269962">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="841142489166385" type="plateformCouleur">
+                    <param id="0" name="Instance variable">Red</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+                <condition id="-7" name="Compare instance variable" sid="515396823740692" type="plateformCouleur">
+                    <param id="0" name="Instance variable">casser</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="886486965555769" type="plateformCouleur">
+                    <param id="0" name="Animation">&quot;blue&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="861455981270412">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="326661196720104" type="plateformCouleur">
+                    <param id="0" name="Instance variable">casser</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+                <condition id="-7" name="Compare instance variable" sid="507049078512757" type="plateformCouleur">
+                    <param id="0" name="Instance variable">Red</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="669876398185135" type="plateformCouleur">
                     <param id="0" name="Animation">&quot;red&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
@@ -44,6 +94,11 @@
                     <param id="0" name="Instance variable">Red</param>
                     <param id="1" name="Comparison">0</param>
                     <param id="2" name="Value">0</param>
+                </condition>
+                <condition id="-7" name="Compare instance variable" sid="999671467011339" type="plateformCouleur">
+                    <param id="0" name="Instance variable">casser</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
                 </condition>
             </conditions>
             <actions>
@@ -62,6 +117,11 @@
             <conditions>
                 <condition id="0" name="On collision with another object" sid="389021773587751" type="D_Player2">
                     <param id="0" name="Object">plateformCouleur</param>
+                </condition>
+                <condition id="-7" name="Compare instance variable" sid="703486797819302" type="plateformCouleur">
+                    <param id="0" name="Instance variable">casser</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
                 </condition>
                 <condition id="-7" name="Compare instance variable" sid="104627732009243" type="plateformCouleur">
                     <param id="0" name="Instance variable">Red</param>
@@ -89,6 +149,11 @@
                     <param id="1" name="Comparison">0</param>
                     <param id="2" name="Value">1</param>
                 </condition>
+                <condition id="-7" name="Compare instance variable" sid="252568833617722" type="plateformCouleur">
+                    <param id="0" name="Instance variable">casser</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
             </conditions>
             <actions>
                 <action behavior="Physics" disabled="1" id="27" name="Set enabled" sid="114726413743355" type="D_Player1">
@@ -106,6 +171,11 @@
                     <param id="0" name="Instance variable">Red</param>
                     <param id="1" name="Comparison">0</param>
                     <param id="2" name="Value">0</param>
+                </condition>
+                <condition id="-7" name="Compare instance variable" sid="867854506040862" type="plateformCouleur">
+                    <param id="0" name="Instance variable">casser</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
                 </condition>
             </conditions>
             <actions>
@@ -254,6 +324,137 @@
                 <action id="-9" name="Set value" sid="471810259059036" type="System">
                     <param id="0" name="Variable">nom_layout</param>
                     <param id="1" name="Value">LayoutName</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="480908134877845">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="702601454713644" type="System" />
+                <condition id="-14" name="Pick by unique ID" sid="289396223369338" type="plateformCouleur">
+                    <param id="0" name="Unique ID">69</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="730224899657538">
+                    <conditions>
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="854693210740884" type="plateformCouleur">
+                            <param id="0" name="Instance variable">aller_retour</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="281954068755027" type="plateformCouleur">
+                            <param id="0" name="X">Self.X</param>
+                            <param id="1" name="Y">self.Y-1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="488521403626357">
+                    <conditions>
+                        <condition id="-8" name="Is boolean instance variable set" sid="790803892947680" type="plateformCouleur">
+                            <param id="0" name="Instance variable">aller_retour</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="998729240594600" type="plateformCouleur">
+                            <param id="0" name="X">Self.X</param>
+                            <param id="1" name="Y">self.Y+1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="229678598686096">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="941988640063693" type="System" />
+                <condition id="-14" name="Pick by unique ID" sid="334159783216749" type="plateformCouleur">
+                    <param id="0" name="Unique ID">67</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="644022854178120">
+                    <conditions>
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="951912340431089" type="plateformCouleur">
+                            <param id="0" name="Instance variable">aller_retour</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="761130916253233" type="plateformCouleur">
+                            <param id="0" name="X">Self.X</param>
+                            <param id="1" name="Y">self.Y-1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="940615198541279">
+                    <conditions>
+                        <condition id="-8" name="Is boolean instance variable set" sid="688293533853380" type="plateformCouleur">
+                            <param id="0" name="Instance variable">aller_retour</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="892176117217297" type="plateformCouleur">
+                            <param id="0" name="X">Self.X</param>
+                            <param id="1" name="Y">self.Y+1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="280269261342998">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="687289593803672" type="plateformCouleur">
+                    <param id="0" name="Object">collider</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-14" name="Toggle boolean" sid="326036265401554" type="plateformCouleur">
+                    <param id="0" name="Instance variable">aller_retour</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="866376582074693">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="530572134610382" type="Keyboard">
+                    <param id="0" name="Key">82</param>
+                </condition>
+                <condition id="1" name="Is overlapping another object" sid="293307448261790" type="D_Lien">
+                    <param id="0" name="Object">plateformCouleur</param>
+                </condition>
+                <condition id="-7" name="Compare instance variable" sid="952313336537238" type="plateformCouleur">
+                    <param id="0" name="Instance variable">casser</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-13" name="Set boolean" sid="932443372242533" type="D_Lien">
+                    <param id="0" name="Instance variable">isLocked</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-10" name="Set value" sid="952794267062970" type="plateformCouleur">
+                    <param id="0" name="Instance variable">casser</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="948243162457666" type="D_Lien">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="282945629416282">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="692724958635466" type="Keyboard">
+                    <param id="0" name="Key">82</param>
+                </condition>
+                <condition id="-8" name="Compare two values" sid="709575195948528" type="System">
+                    <param id="0" name="First value">distance(D_Player1.X,D_Player1.Y,D_Player2.X,D_Player2.Y)</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Second value">50</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="409264131076733" type="D_Lien">
+                    <param id="0" name="Visibility">1</param>
                 </action>
             </actions>
         </event-block>

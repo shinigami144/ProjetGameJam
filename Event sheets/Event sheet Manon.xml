@@ -15,12 +15,8 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="4" name="Set animation" sid="829316201306199" type="Caisse">
-                    <param id="0" name="Animation">&quot;repair&quot;</param>
-                    <param id="1" name="From">1</param>
-                </action>
-                <action id="-13" name="Set boolean" sid="755584453448921" type="Caisse">
-                    <param id="0" name="Instance variable">repair</param>
+                <action id="-10" name="Set value" sid="755584453448921" type="plateformCouleur">
+                    <param id="0" name="Instance variable">casser</param>
                     <param id="1" name="Value">1</param>
                 </action>
             </actions>
