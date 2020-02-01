@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>menuGlobal_eventsheet</name>
+    <events>
+        <event-block sid="625767415415163">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="487696662723039" type="Keyboard">
+                    <param id="0" name="Key">38</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-12" name="Subtract from" sid="329297699532977" type="Surligneur_menuGlobal">
+                    <param id="0" name="Instance variable">position</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="825147443580359">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="323063559928452" type="Keyboard">
+                    <param id="0" name="Key">40</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-11" name="Add to" sid="268294628270936" type="Surligneur_menuGlobal">
+                    <param id="0" name="Instance variable">position</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="389316495994111">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="492298429635999" type="Surligneur_menuGlobal">
+                    <param id="0" name="Instance variable">position</param>
+                    <param id="1" name="Comparison">2</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Set value" sid="342623438622835" type="Surligneur_menuGlobal">
+                    <param id="0" name="Instance variable">position</param>
+                    <param id="1" name="Value">2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="816262911413242">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="528802748294015" type="Surligneur_menuGlobal">
+                    <param id="0" name="Instance variable">position</param>
+                    <param id="1" name="Comparison">4</param>
+                    <param id="2" name="Value">2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Set value" sid="139023669643004" type="Surligneur_menuGlobal">
+                    <param id="0" name="Instance variable">position</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="670462210987964">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="794688617431742" type="Surligneur_menuGlobal">
+                    <param id="0" name="Instance variable">position</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="891846077076661" type="Surligneur_menuGlobal">
+                    <param id="0" name="X">577.5</param>
+                    <param id="1" name="Y">153</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="840756051828508">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="410943492004687" type="Surligneur_menuGlobal">
+                    <param id="0" name="Instance variable">position</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="628417098414976" type="Surligneur_menuGlobal">
+                    <param id="0" name="X">577.5</param>
+                    <param id="1" name="Y">308</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="292666073285167">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="304557934720393" type="Surligneur_menuGlobal">
+                    <param id="0" name="Instance variable">position</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="701494486352988" type="Surligneur_menuGlobal">
+                    <param id="0" name="X">577.5</param>
+                    <param id="1" name="Y">458</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="620593719524683">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="227409566758051" type="Keyboard">
+                    <param id="0" name="Key">13</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="110651294954022">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="596986927051165" type="Surligneur_menuGlobal">
+                            <param id="0" name="Instance variable">position</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="613670068426937" type="System">
+                            <param id="0" name="Layout">Layout Niveau 1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="818524341940752">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="603961595790804" type="Surligneur_menuGlobal">
+                            <param id="0" name="Instance variable">position</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-37" name="Load" sid="929734414232349" type="System">
+                            <param id="0" name="Slot">&quot;mysave&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="242715606249451">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="292614744617976" type="Surligneur_menuGlobal">
+                            <param id="0" name="Instance variable">position</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-25" name="Go to layout (by name)" sid="821792455393429" type="System">
+                            <param id="0" name="Layout">&quot;menuGlobal&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+    </events>
+</c2eventsheet>

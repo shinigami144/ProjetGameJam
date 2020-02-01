@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet Niveau 4</name>
+    <events>
+        <include>Event sheet David</include>
+        <include>Event sheet Guillaume</include>
+        <event-block sid="613263580428249">
+            <conditions>
+                <condition id="3" name="Compare frame" sid="883053300070806" type="portail">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Number">0</param>
+                </condition>
+                <condition id="-8" name="Compare two values" sid="304572216367854" type="System">
+                    <param id="0" name="First value">distance(D_Player1.X,D_Player1.Y,portail.X,portail.Y)</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Second value">30</param>
+                </condition>
+                <condition id="-8" name="Compare two values" sid="372705282763204" type="System">
+                    <param id="0" name="First value">distance(D_Player2.X,D_Player2.Y,portail.X,portail.Y)</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Second value">30</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="282749353664669" type="System">
+                    <param id="0" name="Layout">Layout Niveau 4</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
