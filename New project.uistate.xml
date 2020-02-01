@@ -11,7 +11,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout order="0">Layout David</layout>
-        <layout order="5">Layout Guillaume</layout>
         <layout order="3">menuIngame</layout>
         <layout order="5">Layout Guillaume</layout>
         <layout order="8">menuGlobal</layout>
