@@ -65,6 +65,11 @@
                                 <double-jump>Disabled</double-jump>
                                 <jump-sustain>0</jump-sustain>
                                 <default-controls>Yes</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="ScrollTo">
+                            <properties>
                                 <initial-state>Disabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -121,6 +126,11 @@
                                 <angular-damping>1</angular-damping>
                                 <bullet>No</bullet>
                                 <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="ScrollTo">
+                            <properties>
+                                <initial-state>Disabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>

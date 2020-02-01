@@ -11,11 +11,15 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout order="0">Layout David</layout>
-        <layout order="2">Layout Guillaume</layout>
-        <layout active="1" order="4">Layout Niveau 1</layout>
+        <layout order="5">Layout Guillaume</layout>
+        <layout order="3">menuIngame</layout>
+        <layout order="8">menuGlobal</layout>
+        <layout order="9">Layout Niveau 1</layout>
         <event-sheet order="1">Event sheet David</event-sheet>
-        <event-sheet order="5">Event sheet Niveau 1</event-sheet>
-        <event-sheet order="3">Event sheet Guillaume</event-sheet>
+        <event-sheet active="1" order="2">Event sheet Guillaume</event-sheet>
+        <event-sheet order="6">Event sheet Niveau 1</event-sheet>
+        <event-sheet order="4">menuIngame_eventsheet</event-sheet>
+        <event-sheet order="7">menuGlobal_eventsheet</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -45,5 +49,12 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Player1/" />
         <folder expanded="1" path="animation-folder/Player2/" />
         <folder expanded="1" path="animation-folder/plateformCouleur/" />
+        <folder expanded="1" path="animation-folder/Sprite4/" />
+        <folder expanded="1" path="animation-folder/portail/" />
+        <folder expanded="1" path="animation-folder/Fond_menuIngame/" />
+        <folder expanded="1" path="animation-folder/Fond_text_menuIngame/" />
+        <folder expanded="1" path="animation-folder/Surligneur_menuIngame/" />
+        <folder expanded="1" path="animation-folder/Fond_text_menuGlobal/" />
+        <folder expanded="1" path="animation-folder/Surligneur_menuGlobal/" />
     </folders-expanded>
 </c2uistate>

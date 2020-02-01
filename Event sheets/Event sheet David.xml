@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Event sheet David</name>
     <events>
+        <variable constant="0" name="nom_layout" sid="249549105390988" static="0" type="text"></variable>
         <comment>0 - true; 1 - false</comment>
         <variable comment="1 - player1; 2 - player2" constant="0" name="actualPlayer" sid="264465336895216" static="0" type="number">1</variable>
         <variable constant="0" name="linkLocked" sid="171577109630995" static="0" type="number">1</variable>
@@ -12,7 +13,7 @@
             <sub-events>
                 <event-block sid="116738108259147">
                     <conditions>
-                        <condition id="2" name="Key is down" sid="866200039729498" type="Keyboard">
+                        <condition id="0" name="On key pressed" sid="866200039729498" type="Keyboard">
                             <param id="0" name="Key">32</param>
                         </condition>
                     </conditions>

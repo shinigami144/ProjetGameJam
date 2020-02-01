@@ -399,6 +399,11 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="ScrollTo">
+                            <properties>
+                                <initial-state>Disabled</initial-state>
+                            </properties>
+                        </behavior-instance>
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -451,6 +456,11 @@
                                 <double-jump>Disabled</double-jump>
                                 <jump-sustain>0</jump-sustain>
                                 <default-controls>Yes</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="ScrollTo">
+                            <properties>
                                 <initial-state>Disabled</initial-state>
                             </properties>
                         </behavior-instance>
