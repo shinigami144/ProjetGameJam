@@ -21,6 +21,7 @@
         <behavior author="Scirra" id="Physics" version="1">Physics</behavior>
         <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
         <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
+        <behavior author="Scirra" id="bound" version="1">Bound to layout</behavior>
         <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
     </used-behaviors>
@@ -141,6 +142,9 @@
                     <behavior-type name="ScrollTo" sid="739649544847936">
                         <behavior id="scrollto" />
                     </behavior-type>
+                    <behavior-type name="BoundToLayout" sid="461047395239716">
+                        <behavior id="bound" />
+                    </behavior-type>
                 </behaviors>
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="916814132397752" speed="5">
@@ -162,6 +166,9 @@
                     </behavior-type>
                     <behavior-type name="ScrollTo" sid="386441626909759">
                         <behavior id="scrollto" />
+                    </behavior-type>
+                    <behavior-type name="BoundToLayout" sid="775065031740647">
+                        <behavior id="bound" />
                     </behavior-type>
                 </behaviors>
                 <animation-folder>
@@ -526,6 +533,7 @@
         <layout>menuIngame.xml</layout>
         <layout>menuGlobal.xml</layout>
         <layout>Layout Niveau 2.xml</layout>
+        <layout>Layout Niveau 4.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Event sheet David.xml</event-sheet>
@@ -538,6 +546,7 @@
         <event-sheet>menuIngame_eventsheet.xml</event-sheet>
         <event-sheet>menuGlobal_eventsheet.xml</event-sheet>
         <event-sheet>Event sheet Niveau 2.xml</event-sheet>
+        <event-sheet>Event sheet Niveau 4.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="56" />

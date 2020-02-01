@@ -3,13 +3,15 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Event sheet Manon</name>
     <events>
+        <include>Event sheet David</include>
+        <comment>// Case le lien + répare l&apos;objet</comment>
         <event-block sid="576884274168452">
             <conditions>
                 <condition id="0" name="On key pressed" sid="894734550179693" type="Keyboard">
                     <param id="0" name="Key">82</param>
                 </condition>
-                <condition id="1" name="Is overlapping another object" sid="217295486786995" type="plateformCouleur">
-                    <param id="0" name="Object">Lien</param>
+                <condition id="1" name="Is overlapping another object" sid="217295486786995" type="Caisse">
+                    <param id="0" name="Object">D_Lien</param>
                 </condition>
             </conditions>
             <actions>
@@ -17,6 +19,27 @@
                     <param id="0" name="Instance variable">casser</param>
                     <param id="1" name="Value">1</param>
                 </action>
+            </actions>
+        </event-block>
+        <comment>// Reset le lvl quand le joueur tombe dans le vide</comment>
+        <event-block any="1" sid="479500298125958">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="799867439332829" type="D_Player1">
+                    <param id="0" name="Object">Dead_zone</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Restart layout" sid="442103334196016" type="System" />
+            </actions>
+        </event-block>
+        <event-block any="1" sid="664893349242091">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="645700835352757" type="D_Player2">
+                    <param id="0" name="Object">Dead_zone</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Restart layout" sid="184985809424007" type="System" />
             </actions>
         </event-block>
     </events>
