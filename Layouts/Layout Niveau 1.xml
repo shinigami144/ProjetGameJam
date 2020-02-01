@@ -186,7 +186,7 @@
                     <instance-variables>
                         <Red>1</Red>
                         <aller_retour>false</aller_retour>
-                        <casser>0</casser>
+                        <casser>1</casser>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -234,7 +234,7 @@
                     <instance-variables>
                         <Red>0</Red>
                         <aller_retour>false</aller_retour>
-                        <casser>0</casser>
+                        <casser>1</casser>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">

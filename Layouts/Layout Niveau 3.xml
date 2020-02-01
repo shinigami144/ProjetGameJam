@@ -349,8 +349,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>349</x>
-                        <y>569</y>
+                        <x>351</x>
+                        <y>592</y>
                         <z>0</z>
                         <width>54.893447876</width>
                         <height>12.696136475</height>
@@ -501,12 +501,17 @@
                                 <initial-state>Disabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="BoundToLayout">
+                            <properties>
+                                <bound-by>Edge</bound-by>
+                            </properties>
+                        </behavior-instance>
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1349.591186523</x>
-                        <y>252.522109985</y>
+                        <x>313</x>
+                        <y>653</y>
                         <z>0</z>
                         <width>30</width>
                         <height>30</height>
@@ -561,12 +566,17 @@
                                 <initial-state>Disabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="BoundToLayout">
+                            <properties>
+                                <bound-by>Edge</bound-by>
+                            </properties>
+                        </behavior-instance>
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1174.23840332</x>
-                        <y>249.456939697</y>
+                        <x>218</x>
+                        <y>650</y>
                         <z>0</z>
                         <width>30</width>
                         <height>30</height>
@@ -720,7 +730,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <Red>1</Red>
+                        <Red>0</Red>
                         <aller_retour>false</aller_retour>
                         <casser>1</casser>
                     </instance-variables>
