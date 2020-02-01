@@ -12,12 +12,14 @@
     <used-plugins>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Tilemap" version="1">Tilemap</plugin>
     </used-plugins>
     <used-behaviors>
         <behavior author="Scirra" id="DragnDrop" version="1">Drag &amp; Drop</behavior>
         <behavior author="Scirra" id="Physics" version="1">Physics</behavior>
         <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
         <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
     </used-behaviors>
     <used-effects />
@@ -153,6 +155,132 @@
         </object-type>
         <object-type name="Keyboard" sid="366755525169395">
             <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="Sprite4" sid="421430933130638">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Platform" sid="700881798075905">
+                    <behavior id="Platform" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="6" loop="1" name="Walk" pingpong="0" repeatcount="1" repeatto="0" sid="684590362880962" speed="5">
+                    <frame duration="1" hotspotX="0.512821" hotspotY="0.508197" original-source="C:\Users\Meng\Desktop\LUDUS\GGJ\Perso1.png">
+                        <collision-poly>
+                            <point x="0.0512821" y="0.163934" />
+                            <point x="1" y="0.0655738" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.509434" hotspotY="0.508197" original-source="C:\Users\Meng\Desktop\LUDUS\GGJ\Perso1.png">
+                        <collision-poly>
+                            <point x="0" y="0.163934" />
+                            <point x="1" y="0.0655738" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="0.0754717" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.511628" hotspotY="0.507937" original-source="C:\Users\Meng\Desktop\LUDUS\GGJ\Perso1.png">
+                        <collision-poly>
+                            <point x="0" y="0.142857" />
+                            <point x="1" y="0.047619" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Meng\Desktop\LUDUS\GGJ\Perso1.png">
+                        <collision-poly>
+                            <point x="0" y="0.166667" />
+                            <point x="1" y="0.0666667" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Meng\Desktop\LUDUS\GGJ\Perso1.png">
+                        <collision-poly>
+                            <point x="0" y="0.15" />
+                            <point x="1" y="0.05" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Meng\Desktop\LUDUS\GGJ\Perso1.png">
+                        <collision-poly>
+                            <point x="0" y="0.177419" />
+                            <point x="1" y="0.0806452" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite5" sid="804747174805551">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="550418342898809">
+                    <behavior id="Sin" />
+                </behavior-type>
+                <behavior-type name="Solid" sid="952332695529716">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="756357732614499" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Tilemap" sid="273842115236794">
+            <plugin id="Tilemap" />
+            <behaviors>
+                <behavior-type name="Solid" sid="385889299982040">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="C:\Users\Meng\Desktop\LUDUS\GGJ\tilemap1.png" />
+            <tiles />
+        </object-type>
+        <object-type name="Sprite6" sid="978901864908456">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="313602258845185" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite7" sid="784585198529295">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="902810458402728" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
         </object-type>
     </object-folder>
     <families />
