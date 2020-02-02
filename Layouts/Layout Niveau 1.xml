@@ -399,7 +399,7 @@
                                 <collision-mask>Use collision polygon</collision-mask>
                                 <prevent-rotation>Yes</prevent-rotation>
                                 <density>1</density>
-                                <friction>0</friction>
+                                <friction>1</friction>
                                 <elasticity>0.2</elasticity>
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.5</angular-damping>
@@ -450,7 +450,7 @@
                                 <collision-mask>Use collision polygon</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>0</density>
-                                <friction>0</friction>
+                                <friction>1</friction>
                                 <elasticity>0.2</elasticity>
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.5</angular-damping>
