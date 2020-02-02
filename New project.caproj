@@ -10,7 +10,9 @@
     <unique-id>1zt30ae7uy8c6</unique-id>
     <saved-with-version>27500</saved-with-version>
     <used-plugins>
+        <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
@@ -326,7 +328,14 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="298501040492041" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Asus D50C\Desktop\button.png">
+                        <collision-poly>
+                            <point x="0.106952" y="0.0300752" />
+                            <point x="0.804813" y="0.0150376" />
+                            <point x="0.299465" y="0.842105" />
+                            <point x="0.804813" y="0.740601" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -342,7 +351,14 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="802876441092412" speed="5">
-                    <frame duration="1" hotspotX="0.500931" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501887" original-source="C:\Users\Asus D50C\Desktop\shine2.png">
+                        <collision-poly>
+                            <point x="0.0516934" y="0.0792453" />
+                            <point x="0.713012" y="0.0264151" />
+                            <point x="0.236185" y="0.860377" />
+                            <point x="0.713012" y="0.856604" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -609,6 +625,12 @@
         <object-type name="Text" sid="963160698121318">
             <plugin id="Text" />
         </object-type>
+        <object-type name="Browser" sid="268467067861612">
+            <plugin id="Browser" />
+        </object-type>
+        <object-type name="Mouse" sid="897820647786427">
+            <plugin id="Mouse" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -625,8 +647,6 @@
     <event-folder>
         <event-sheet>Event sheet David.xml</event-sheet>
         <event-sheet>Event sheet Guillaume.xml</event-sheet>
-        <event-sheet>Event sheet Gaby.xml</event-sheet>
-        <event-sheet>Event sheet Louis.xml</event-sheet>
         <event-sheet>Event sheet Manon.xml</event-sheet>
         <event-sheet>Event sheet Niveau 1.xml</event-sheet>
         <event-sheet>Event sheet Niveau 3.xml</event-sheet>
@@ -640,6 +660,8 @@
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="143" />
+        <global-instance type="Browser" uid="5" />
+        <global-instance type="Mouse" uid="6" />
     </global-instances>
     <sounds-folder />
     <music-folder />

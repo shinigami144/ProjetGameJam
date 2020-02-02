@@ -12,6 +12,9 @@
                     <param id="0" name="Family name">&quot;boldenvanregular&quot;</param>
                     <param id="1" name="CSS URL">&quot;stylesheet.css&quot;</param>
                 </action>
+                <action id="0" name="Set cursor style" sid="712042246456576" type="Mouse">
+                    <param id="0" name="Cursor style">7</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="625767415415163">
@@ -160,9 +163,7 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-25" name="Go to layout (by name)" sid="821792455393429" type="System">
-                            <param id="0" name="Layout">&quot;menuGlobal&quot;</param>
-                        </action>
+                        <action id="1" name="Close" sid="932153160731719" type="Browser" />
                     </actions>
                 </event-block>
             </sub-events>
