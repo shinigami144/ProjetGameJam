@@ -10,19 +10,19 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="3">Layout Niveau 1</layout>
-        <layout order="1">Layout Niveau 4</layout>
-        <layout order="2">Layout Niveau 3</layout>
-        <layout active="1" order="4">Layout Niveau 5</layout>
-        <layout order="5">Layout Niveau 6</layout>
-        <layout order="6">Layout Niveau 2</layout>
-        <layout order="0">menuGlobal</layout>
-        <layout order="7">menuIngame</layout>
-        <layout order="8">End Game</layout>
-        <event-sheet order="9">Event sheet 1</event-sheet>
-        <event-sheet order="10">menuGlobal_eventsheet</event-sheet>
-        <event-sheet order="11">Even sheet Niveau 6</event-sheet>
-        <event-sheet order="12">Event sheet niveau 5</event-sheet>
+        <layout order="1">menuGlobal</layout>
+        <layout order="2">Layout Niveau 4</layout>
+        <layout order="3">Layout Niveau 3</layout>
+        <layout order="4">Layout Niveau 1</layout>
+        <layout order="5">Layout Niveau 5</layout>
+        <layout active="1" order="6">Layout Niveau 6</layout>
+        <layout order="7">Layout Niveau 2</layout>
+        <layout order="8">menuIngame</layout>
+        <layout order="9">End Game</layout>
+        <event-sheet order="10">Event sheet 1</event-sheet>
+        <event-sheet order="11">menuGlobal_eventsheet</event-sheet>
+        <event-sheet order="12">Even sheet Niveau 6</event-sheet>
+        <event-sheet order="13">Event sheet niveau 5</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />

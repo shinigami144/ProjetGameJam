@@ -304,7 +304,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="casser" pingpong="0" repeatcount="1" repeatto="0" sid="776910595604688" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.652" hotspotY="0.3" />
                 </animation>
                 <animation framecount="1" loop="0" name="reparer" pingpong="0" repeatcount="1" repeatto="0" sid="439873670425977" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
@@ -639,7 +639,7 @@
         <event-sheet>Event sheet 1.xml</event-sheet>
     </event-folder>
     <global-instances>
-        <global-instance type="Keyboard" uid="113" />
+        <global-instance type="Keyboard" uid="3" />
     </global-instances>
     <sounds-folder />
     <music-folder />
