@@ -639,7 +639,7 @@
         <event-sheet>Even sheet Niveau 6.xml</event-sheet>
     </event-folder>
     <global-instances>
-        <global-instance type="Keyboard" uid="123" />
+        <global-instance type="Keyboard" uid="143" />
     </global-instances>
     <sounds-folder />
     <music-folder />

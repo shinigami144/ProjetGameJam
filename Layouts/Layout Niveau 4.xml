@@ -59,7 +59,7 @@
                         <y>-2</y>
                         <z>0</z>
                         <width>1760</width>
-                        <height>1204</height>
+                        <height>1227</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -520,10 +520,10 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>585</x>
+                        <x>611.5</x>
                         <y>619</y>
                         <z>0</z>
-                        <width>96</width>
+                        <width>227</width>
                         <height>32</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
@@ -640,7 +640,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="plateformCouleur" uid="100">
+                <instance type="plateformCouleur" uid="99">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -701,7 +701,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="plateformCouleur" uid="101">
+                <instance type="plateformCouleur" uid="102">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -762,7 +762,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="plateformCouleur" uid="102">
+                <instance type="plateformCouleur" uid="103">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -823,7 +823,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="plateformCouleur" uid="103">
+                <instance type="plateformCouleur" uid="104">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -884,7 +884,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Dead_zone" uid="104">
+                <instance type="Dead_zone" uid="105">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -894,8 +894,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>854</x>
-                        <y>1180</y>
+                        <x>856</x>
+                        <y>1199</y>
                         <z>0</z>
                         <width>1704</width>
                         <height>42</height>
