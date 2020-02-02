@@ -10,24 +10,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">Layout Niveau 1</layout>
-        <layout order="4">Layout Niveau 4</layout>
-        <layout active="1" order="6">Layout Niveau 3</layout>
-        <layout order="8">Layout Niveau 5</layout>
-        <layout order="10">Layout Niveau 2</layout>
-        <layout order="11">Layout Niveau 6</layout>
-        <layout order="13">menuGlobal</layout>
-        <layout order="16">menuIngame</layout>
-        <event-sheet order="1">Event sheet David</event-sheet>
-        <event-sheet order="2">Event sheet Guillaume</event-sheet>
-        <event-sheet order="3">Event sheet Manon</event-sheet>
-        <event-sheet order="5">Event sheet Niveau 4</event-sheet>
-        <event-sheet order="7">Event sheet Niveau 2</event-sheet>
-        <event-sheet order="9">Event sheet niveau 5</event-sheet>
-        <event-sheet order="12">Even sheet Niveau 6</event-sheet>
-        <event-sheet order="14">menuGlobal_eventsheet</event-sheet>
-        <event-sheet order="15">Event sheet Niveau 3</event-sheet>
-        <event-sheet order="17">Event sheet Niveau 1</event-sheet>
+        <layout order="0">Layout Niveau 4</layout>
+        <layout order="1">menuGlobal</layout>
+        <event-sheet active="1" order="2">menuGlobal_eventsheet</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -72,7 +57,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/MurRouge/" />
         <folder expanded="1" path="animation-folder/Dead_zone/" />
         <folder expanded="1" path="animation-folder/collider/" />
-        <folder expanded="1" path="animation-folder/BlocNoir/" />
-        <folder expanded="1" path="animation-folder/DeadZone/" />
+        <folder expanded="1" path="animation-folder/title/" />
     </folders-expanded>
 </c2uistate>

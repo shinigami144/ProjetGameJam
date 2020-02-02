@@ -353,7 +353,14 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="758461393619967" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Asus D50C\Desktop\button.png">
+                        <collision-poly>
+                            <point x="0.106952" y="0.0300752" />
+                            <point x="0.804813" y="0.0150376" />
+                            <point x="0.299465" y="0.842105" />
+                            <point x="0.804813" y="0.740601" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -369,7 +376,14 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="475400996790494" speed="5">
-                    <frame duration="1" hotspotX="0.500907" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501887" original-source="C:\Users\Asus D50C\Desktop\shine2.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -536,6 +550,27 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="title" sid="239972187908624">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="333877888444268" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Asus D50C\Desktop\title2.png">
+                        <collision-poly>
+                            <point x="0.866579" y="1" />
+                            <point x="0.245815" y="1" />
+                            <point x="1" y="0" />
+                            <point x="0.82887" y="1" />
+                            <point x="0.721541" y="1" />
+                            <point x="1" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bgTitre" sid="474920362115921">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\Asus D50C\Desktop\bg_title2.png" />
+        </object-type>
         <object-type name="BlocNoir" sid="775855092523446">
             <plugin id="Sprite" />
             <behaviors>
@@ -617,5 +652,10 @@
             <file name="icon-256.png" />
             <file name="loading-logo.png" />
         </file-folder>
+        <file name="boldenvan-webfont.eot" />
+        <file name="boldenvan-webfont.svg" />
+        <file name="boldenvan-webfont.ttf" />
+        <file name="boldenvan-webfont.woff" />
+        <file name="stylesheet.css" />
     </files-folder>
 </c2project>

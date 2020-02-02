@@ -3,6 +3,17 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>menuGlobal_eventsheet</name>
     <events>
+        <event-block sid="418750911000547">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="813108396798676" type="System" />
+            </conditions>
+            <actions>
+                <action id="5" name="Set web font" sid="287835043131298" type="Text_menuGlobal">
+                    <param id="0" name="Family name">&quot;boldenvanregular&quot;</param>
+                    <param id="1" name="CSS URL">&quot;stylesheet.css&quot;</param>
+                </action>
+            </actions>
+        </event-block>
         <event-block sid="625767415415163">
             <conditions>
                 <condition id="0" name="On key pressed" sid="487696662723039" type="Keyboard">
@@ -69,8 +80,8 @@
             </conditions>
             <actions>
                 <action id="-3" name="Set position" sid="891846077076661" type="Surligneur_menuGlobal">
-                    <param id="0" name="X">577.5</param>
-                    <param id="1" name="Y">153</param>
+                    <param id="0" name="X">640</param>
+                    <param id="1" name="Y">315</param>
                 </action>
             </actions>
         </event-block>
@@ -84,8 +95,8 @@
             </conditions>
             <actions>
                 <action id="-3" name="Set position" sid="628417098414976" type="Surligneur_menuGlobal">
-                    <param id="0" name="X">577.5</param>
-                    <param id="1" name="Y">308</param>
+                    <param id="0" name="X">640</param>
+                    <param id="1" name="Y">475</param>
                 </action>
             </actions>
         </event-block>
@@ -99,8 +110,8 @@
             </conditions>
             <actions>
                 <action id="-3" name="Set position" sid="701494486352988" type="Surligneur_menuGlobal">
-                    <param id="0" name="X">577.5</param>
-                    <param id="1" name="Y">458</param>
+                    <param id="0" name="X">640</param>
+                    <param id="1" name="Y">635</param>
                 </action>
             </actions>
         </event-block>
