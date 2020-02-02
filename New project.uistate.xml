@@ -10,13 +10,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">Layout Niveau 1</layout>
-        <layout order="5">Layout Niveau 4</layout>
-        <event-sheet order="1">Event sheet Niveau 1</event-sheet>
-        <event-sheet order="2">Event sheet David</event-sheet>
-        <event-sheet order="3">Event sheet Guillaume</event-sheet>
-        <event-sheet order="4">Event sheet Manon</event-sheet>
-        <event-sheet active="1" order="6">Event sheet Niveau 4</event-sheet>
+        <layout order="0">Layout Niveau 4</layout>
+        <layout order="1">menuGlobal</layout>
+        <event-sheet active="1" order="2">menuGlobal_eventsheet</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -61,5 +57,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/MurRouge/" />
         <folder expanded="1" path="animation-folder/Dead_zone/" />
         <folder expanded="1" path="animation-folder/collider/" />
+        <folder expanded="1" path="animation-folder/title/" />
     </folders-expanded>
 </c2uistate>

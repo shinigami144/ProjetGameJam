@@ -5,5 +5,24 @@
     <events>
         <include>Event sheet David</include>
         <include>Event sheet Guillaume</include>
+        <event-block sid="504199922916427">
+            <conditions>
+                <condition id="-8" name="Compare two values" sid="508549794796365" type="System">
+                    <param id="0" name="First value">distance(D_Player1.X,D_Player1.Y,portail.X,portail.Y)</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Second value">30</param>
+                </condition>
+                <condition id="-8" name="Compare two values" sid="367186705089874" type="System">
+                    <param id="0" name="First value">distance(D_Player2.X,D_Player2.Y,portail.X,portail.Y)</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Second value">30</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="647436211118289" type="System">
+                    <param id="0" name="Layout">Layout Niveau 2</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

@@ -19,13 +19,43 @@
                         <condition id="-8" name="Compare two values" sid="542478825266749" type="System">
                             <param id="0" name="First value">distance(D_Player1.X,D_Player1.Y,D_Player2.X,D_Player2.y)</param>
                             <param id="1" name="Comparison">5</param>
-                            <param id="2" name="Second value">200</param>
+                            <param id="2" name="Second value">150</param>
                         </condition>
                         <condition id="-9" name="Is visible" sid="140769616065293" type="D_Lien" />
                     </conditions>
                     <actions>
                         <action id="-14" name="Toggle boolean" sid="932402466089177" type="D_Lien">
                             <param id="0" name="Instance variable">isLocked</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="577698913601607">
+                    <conditions>
+                        <condition id="-21" name="Is between values" sid="307033204181277" type="System">
+                            <param id="0" name="Value">distance(D_Player1.X,D_Player1.Y,D_Player2.X,D_Player2.Y)</param>
+                            <param id="1" name="Lower bound">0</param>
+                            <param id="2" name="Upper bound">150</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="598940443448944" type="D_Lien">
+                            <param id="0" name="Animation">&quot;default&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="342421473538516">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="398792780585597" type="System">
+                            <param id="0" name="First value">distance(D_Player1.X,D_Player1.Y,D_Player2.X,D_Player2.Y)</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Second value">150</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="790037325142162" type="D_Lien">
+                            <param id="0" name="Animation">&quot;lockable&quot;</param>
+                            <param id="1" name="From">1</param>
                         </action>
                     </actions>
                 </event-block>
@@ -102,6 +132,19 @@
                                     <param id="2" name="That image point">-1</param>
                                     <param id="3" name="Damping ratio">0</param>
                                     <param id="4" name="Spring frequency">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="140792461839748">
+                            <conditions>
+                                <condition id="-8" name="Is boolean instance variable set" sid="420876504564308" type="D_Lien">
+                                    <param id="0" name="Instance variable">isLocked</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="748539053929438" type="D_Lien">
+                                    <param id="0" name="Animation">&quot;locked&quot;</param>
+                                    <param id="1" name="From">1</param>
                                 </action>
                             </actions>
                         </event-block>
