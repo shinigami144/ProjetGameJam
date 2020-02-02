@@ -606,22 +606,21 @@
                 </behavior-type>
             </behaviors>
         </object-type>
+        <object-type name="Text" sid="963160698121318">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
-        <layout>Layout David.xml</layout>
-        <layout>Layout Guillaume.xml</layout>
-        <layout>Layout Gaby.xml</layout>
-        <layout>Layout Louis.xml</layout>
-        <layout>Layout Manon.xml</layout>
-        <layout>menuIngame.xml</layout>
         <layout>menuGlobal.xml</layout>
+        <layout>menuIngame.xml</layout>
         <layout>Layout Niveau 1.xml</layout>
         <layout>Layout Niveau 2.xml</layout>
         <layout>Layout Niveau 3.xml</layout>
         <layout>Layout Niveau 4.xml</layout>
         <layout>Layout Niveau 5.xml</layout>
         <layout>Layout Niveau 6.xml</layout>
+        <layout>End Game.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Event sheet David.xml</event-sheet>
@@ -637,9 +636,10 @@
         <event-sheet>Event sheet Niveau 4.xml</event-sheet>
         <event-sheet>Event sheet niveau 5.xml</event-sheet>
         <event-sheet>Even sheet Niveau 6.xml</event-sheet>
+        <event-sheet>Event sheet 1.xml</event-sheet>
     </event-folder>
     <global-instances>
-        <global-instance type="Keyboard" uid="123" />
+        <global-instance type="Keyboard" uid="143" />
     </global-instances>
     <sounds-folder />
     <music-folder />

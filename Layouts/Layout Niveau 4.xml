@@ -640,7 +640,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="plateformCouleur" uid="100">
+                <instance type="plateformCouleur" uid="99">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -701,7 +701,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="plateformCouleur" uid="101">
+                <instance type="plateformCouleur" uid="102">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -762,7 +762,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="plateformCouleur" uid="102">
+                <instance type="plateformCouleur" uid="103">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -823,7 +823,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="plateformCouleur" uid="103">
+                <instance type="plateformCouleur" uid="104">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -884,7 +884,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Dead_zone" uid="104">
+                <instance type="Dead_zone" uid="105">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>

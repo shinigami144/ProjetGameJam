@@ -10,9 +10,19 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">Layout Niveau 4</layout>
-        <layout order="1">menuGlobal</layout>
-        <event-sheet active="1" order="2">menuGlobal_eventsheet</event-sheet>
+        <layout order="3">Layout Niveau 1</layout>
+        <layout order="1">Layout Niveau 4</layout>
+        <layout order="2">Layout Niveau 3</layout>
+        <layout active="1" order="4">Layout Niveau 5</layout>
+        <layout order="5">Layout Niveau 6</layout>
+        <layout order="6">Layout Niveau 2</layout>
+        <layout order="0">menuGlobal</layout>
+        <layout order="7">menuIngame</layout>
+        <layout order="8">End Game</layout>
+        <event-sheet order="9">Event sheet 1</event-sheet>
+        <event-sheet order="10">menuGlobal_eventsheet</event-sheet>
+        <event-sheet order="11">Even sheet Niveau 6</event-sheet>
+        <event-sheet order="12">Event sheet niveau 5</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -58,5 +68,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Dead_zone/" />
         <folder expanded="1" path="animation-folder/collider/" />
         <folder expanded="1" path="animation-folder/title/" />
+        <folder expanded="1" path="animation-folder/BlocNoir/" />
+        <folder expanded="1" path="animation-folder/DeadZone/" />
     </folders-expanded>
 </c2uistate>
