@@ -3,6 +3,30 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Event sheet Niveau 2</name>
     <events>
+        <include>Event sheet Manon</include>
+        <event-block sid="647558992168238">
+            <conditions>
+                <condition id="3" name="Compare frame" sid="191747001932781" type="portail">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Number">0</param>
+                </condition>
+                <condition id="-8" name="Compare two values" sid="416395074991667" type="System">
+                    <param id="0" name="First value">distance(D_Player1.X,D_Player1.Y,portail.X,portail.Y)</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Second value">30</param>
+                </condition>
+                <condition id="-8" name="Compare two values" sid="779278050717510" type="System">
+                    <param id="0" name="First value">distance(D_Player2.X,D_Player2.Y,portail.X,portail.Y)</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Second value">30</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="355632497987174" type="System">
+                    <param id="0" name="Layout">Layout Niveau 1</param>
+                </action>
+            </actions>
+        </event-block>
         <include>Event sheet Guillaume</include>
         <include>Event sheet David</include>
     </events>
