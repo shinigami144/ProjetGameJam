@@ -2,7 +2,7 @@
 <c2layout>
     <name>Layout Niveau 3</name>
     <sid>749438712697052</sid>
-    <event-sheet>Event sheet Guillaume</event-sheet>
+    <event-sheet>Event sheet Niveau 3</event-sheet>
     <size>
         <width>1708</width>
         <height>960</height>
@@ -601,8 +601,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>290</x>
-                        <y>393</y>
+                        <x>175</x>
+                        <y>660</y>
                         <z>0</z>
                         <width>30</width>
                         <height>30</height>
@@ -666,8 +666,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>530</x>
-                        <y>408</y>
+                        <x>241</x>
+                        <y>651</y>
                         <z>0</z>
                         <width>30</width>
                         <height>30</height>

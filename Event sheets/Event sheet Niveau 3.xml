@@ -7,16 +7,18 @@
         <include>Event sheet Guillaume</include>
         <event-block sid="159852601513994">
             <conditions>
-                <condition id="3" name="Compare frame" sid="898799272692265" type="portail">
-                    <param id="0" name="Comparison">0</param>
-                    <param id="1" name="Number">0</param>
+                <condition id="1" name="Is overlapping another object" sid="602176432792945" type="D_Player1">
+                    <param id="0" name="Object">portail</param>
                 </condition>
-                <condition id="-8" name="Compare two values" sid="286336533699637" type="System">
+                <condition id="-14" name="Pick by unique ID" sid="898799272692265" type="portail">
+                    <param id="0" name="Unique ID">79</param>
+                </condition>
+                <condition disabled="1" id="-8" name="Compare two values" sid="286336533699637" type="System">
                     <param id="0" name="First value">distance(D_Player1.X,D_Player1.Y,portail.X,portail.Y)</param>
                     <param id="1" name="Comparison">3</param>
                     <param id="2" name="Second value">50</param>
                 </condition>
-                <condition id="-8" name="Compare two values" sid="348549491735505" type="System">
+                <condition disabled="1" id="-8" name="Compare two values" sid="348549491735505" type="System">
                     <param id="0" name="First value">distance(D_Player2.X,D_Player2.Y,portail.X,portail.Y)</param>
                     <param id="1" name="Comparison">3</param>
                     <param id="2" name="Second value">50</param>
