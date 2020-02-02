@@ -215,6 +215,10 @@
                 <action behavior="ScrollTo" id="1" name="Set enabled" sid="970964873636537" type="D_Player1">
                     <param id="0" name="State">1</param>
                 </action>
+                <action id="4" name="Set animation" sid="484021029447053" type="D_Player1">
+                    <param id="0" name="Animation">&quot;controllé&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="327224132500101">
@@ -229,6 +233,10 @@
                 </action>
                 <action behavior="ScrollTo" id="1" name="Set enabled" sid="666170208360712" type="D_Player2">
                     <param id="0" name="State">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="421442141278441" type="D_Player2">
+                    <param id="0" name="Animation">&quot;controllé&quot;</param>
+                    <param id="1" name="From">1</param>
                 </action>
             </actions>
         </event-block>
@@ -245,6 +253,10 @@
                 <action behavior="ScrollTo" id="1" name="Set enabled" sid="459089786883110" type="D_Player1">
                     <param id="0" name="State">0</param>
                 </action>
+                <action id="4" name="Set animation" sid="493082697462920" type="D_Player1">
+                    <param id="0" name="Animation">&quot;default&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="553483263875178">
@@ -259,6 +271,10 @@
                 </action>
                 <action behavior="ScrollTo" id="1" name="Set enabled" sid="540223063319837" type="D_Player2">
                     <param id="0" name="State">0</param>
+                </action>
+                <action id="4" name="Set animation" sid="202170649267013" type="D_Player2">
+                    <param id="0" name="Animation">&quot;default&quot;</param>
+                    <param id="1" name="From">1</param>
                 </action>
             </actions>
         </event-block>
@@ -288,7 +304,7 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="392249775736799">
+        <event-block disabled="1" sid="392249775736799">
             <conditions>
                 <condition id="3" name="Compare frame" sid="317458032962074" type="portail">
                     <param id="0" name="Comparison">0</param>

@@ -29,6 +29,26 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
+                <instance type="PaperrBG" uid="139">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <hotspot>Top-left</hotspot>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>-14</x>
+                        <y>-26</y>
+                        <z>0</z>
+                        <width>1760</width>
+                        <height>1204</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
                 <instance type="TilePlateforme" uid="99">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -114,6 +134,19 @@
                                 <initial-state>Disabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="Sine">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <movement>Horizontal</movement>
+                                <wave>Sine</wave>
+                                <period>4</period>
+                                <period-random>0</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>0</period-offset-random>
+                                <magnitude>50</magnitude>
+                                <magnitude-random>0</magnitude-random>
+                            </properties>
+                        </behavior-instance>
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -160,6 +193,19 @@
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
                                 <initial-state>Disabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Sine">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <movement>Horizontal</movement>
+                                <wave>Sine</wave>
+                                <period>4</period>
+                                <period-random>0</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>0</period-offset-random>
+                                <magnitude>50</magnitude>
+                                <magnitude-random>0</magnitude-random>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -210,6 +256,19 @@
                                 <initial-state>Disabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="Sine">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <movement>Horizontal</movement>
+                                <wave>Sine</wave>
+                                <period>4</period>
+                                <period-random>0</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>0</period-offset-random>
+                                <magnitude>50</magnitude>
+                                <magnitude-random>0</magnitude-random>
+                            </properties>
+                        </behavior-instance>
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -256,6 +315,19 @@
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
                                 <initial-state>Disabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Sine">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <movement>Horizontal</movement>
+                                <wave>Sine</wave>
+                                <period>4</period>
+                                <period-random>0</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>0</period-offset-random>
+                                <magnitude>50</magnitude>
+                                <magnitude-random>0</magnitude-random>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -306,6 +378,19 @@
                                 <initial-state>Disabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="Sine">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <movement>Horizontal</movement>
+                                <wave>Sine</wave>
+                                <period>4</period>
+                                <period-random>0</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>0</period-offset-random>
+                                <magnitude>50</magnitude>
+                                <magnitude-random>0</magnitude-random>
+                            </properties>
+                        </behavior-instance>
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -352,6 +437,19 @@
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
                                 <initial-state>Disabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Sine">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <movement>Horizontal</movement>
+                                <wave>Sine</wave>
+                                <period>4</period>
+                                <period-random>0</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>0</period-offset-random>
+                                <magnitude>50</magnitude>
+                                <magnitude-random>0</magnitude-random>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -402,6 +500,19 @@
                                 <initial-state>Disabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="Sine">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <movement>Horizontal</movement>
+                                <wave>Sine</wave>
+                                <period>4</period>
+                                <period-random>0</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>0</period-offset-random>
+                                <magnitude>50</magnitude>
+                                <magnitude-random>0</magnitude-random>
+                            </properties>
+                        </behavior-instance>
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -448,6 +559,19 @@
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
                                 <initial-state>Disabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Sine">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <movement>Horizontal</movement>
+                                <wave>Sine</wave>
+                                <period>4</period>
+                                <period-random>0</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>0</period-offset-random>
+                                <magnitude>50</magnitude>
+                                <magnitude-random>0</magnitude-random>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -498,6 +622,19 @@
                                 <initial-state>Disabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="Sine">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <movement>Horizontal</movement>
+                                <wave>Sine</wave>
+                                <period>4</period>
+                                <period-random>0</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>0</period-offset-random>
+                                <magnitude>50</magnitude>
+                                <magnitude-random>0</magnitude-random>
+                            </properties>
+                        </behavior-instance>
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -546,6 +683,19 @@
                                 <initial-state>Disabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="Sine">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <movement>Horizontal</movement>
+                                <wave>Sine</wave>
+                                <period>4</period>
+                                <period-random>0</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>0</period-offset-random>
+                                <magnitude>50</magnitude>
+                                <magnitude-random>0</magnitude-random>
+                            </properties>
+                        </behavior-instance>
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -592,6 +742,19 @@
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
                                 <initial-state>Disabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Sine">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <movement>Horizontal</movement>
+                                <wave>Sine</wave>
+                                <period>4</period>
+                                <period-random>0</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>0</period-offset-random>
+                                <magnitude>50</magnitude>
+                                <magnitude-random>0</magnitude-random>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -814,6 +977,19 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="Sine">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <movement>Horizontal</movement>
+                                <wave>Sine</wave>
+                                <period>4</period>
+                                <period-random>0</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>0</period-offset-random>
+                                <magnitude>50</magnitude>
+                                <magnitude-random>0</magnitude-random>
+                            </properties>
+                        </behavior-instance>
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -857,6 +1033,19 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="Sine">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <movement>Horizontal</movement>
+                                <wave>Sine</wave>
+                                <period>4</period>
+                                <period-random>0</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>0</period-offset-random>
+                                <magnitude>50</magnitude>
+                                <magnitude-random>0</magnitude-random>
+                            </properties>
+                        </behavior-instance>
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -875,7 +1064,7 @@
                 </instance>
                 <instance type="DeadZone" uid="122">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>

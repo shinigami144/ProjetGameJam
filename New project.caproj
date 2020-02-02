@@ -19,6 +19,7 @@
     <used-behaviors>
         <behavior author="Scirra" id="DragnDrop" version="1">Drag &amp; Drop</behavior>
         <behavior author="Scirra" id="Physics" version="1">Physics</behavior>
+        <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
         <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
         <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
         <behavior author="Scirra" id="bound" version="1">Bound to layout</behavior>
@@ -109,6 +110,12 @@
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="545908543156088" speed="5">
                         <frame duration="1" hotspotX="-0.004" hotspotY="0.508" />
                     </animation>
+                    <animation framecount="1" loop="0" name="Lockable" pingpong="0" repeatcount="1" repeatto="0" sid="881418399963558" speed="5">
+                        <frame duration="1" hotspotX="-0.004" hotspotY="0.508" />
+                    </animation>
+                    <animation framecount="1" loop="0" name="locked" pingpong="0" repeatcount="1" repeatto="0" sid="265055445521090" speed="5">
+                        <frame duration="1" hotspotX="-0.004" hotspotY="0.508" />
+                    </animation>
                 </animation-folder>
             </object-type>
             <object-type name="D_Plateforme" sid="418820751861141">
@@ -150,6 +157,9 @@
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="916814132397752" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     </animation>
+                    <animation framecount="1" loop="0" name="controllé" pingpong="0" repeatcount="1" repeatto="0" sid="411381353009558" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
                 </animation-folder>
             </object-type>
             <object-type name="D_Player2" sid="545832802187338">
@@ -173,6 +183,9 @@
                 </behaviors>
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="197634889117384" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="1" loop="0" name="controllé" pingpong="0" repeatcount="1" repeatto="0" sid="195172639788126" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     </animation>
                 </animation-folder>
@@ -238,6 +251,9 @@
                 </behavior-type>
                 <behavior-type name="Physics" sid="675155895082304">
                     <behavior id="Physics" />
+                </behavior-type>
+                <behavior-type name="Sine" sid="388695185840220">
+                    <behavior id="Sin" />
                 </behavior-type>
             </behaviors>
             <animation-folder>
@@ -529,6 +545,9 @@
                 <behavior-type name="Physics" sid="813162622081190">
                     <behavior id="Physics" />
                 </behavior-type>
+                <behavior-type name="Sine" sid="302937399546682">
+                    <behavior id="Sin" />
+                </behavior-type>
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="517130695965828" speed="5">
@@ -544,6 +563,14 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Text_Fin" sid="543031666270640">
+            <plugin id="Text" />
+            <behaviors>
+                <behavior-type name="Pin" sid="979010090891820">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -552,13 +579,14 @@
         <layout>Layout Gaby.xml</layout>
         <layout>Layout Louis.xml</layout>
         <layout>Layout Manon.xml</layout>
-        <layout>Layout Niveau 1.xml</layout>
-        <layout>Layout Niveau 3.xml</layout>
         <layout>menuIngame.xml</layout>
         <layout>menuGlobal.xml</layout>
+        <layout>Layout Niveau 1.xml</layout>
         <layout>Layout Niveau 2.xml</layout>
+        <layout>Layout Niveau 3.xml</layout>
         <layout>Layout Niveau 4.xml</layout>
         <layout>Layout Niveau 5.xml</layout>
+        <layout>Layout Niveau 6.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Event sheet David.xml</event-sheet>
@@ -573,6 +601,7 @@
         <event-sheet>Event sheet Niveau 2.xml</event-sheet>
         <event-sheet>Event sheet Niveau 4.xml</event-sheet>
         <event-sheet>Event sheet niveau 5.xml</event-sheet>
+        <event-sheet>Even sheet Niveau 6.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="123" />
